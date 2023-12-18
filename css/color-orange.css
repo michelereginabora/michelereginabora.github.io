@@ -27,6 +27,9 @@
   .cv a button{
       background: #bc3908;
   }
+  .language-buttons button{
+    background: #bc3908;
+  }
   .service-img img{
     background: #bc3908;
     box-shadow:0px 0px 0px 0px #bc3908 ;
