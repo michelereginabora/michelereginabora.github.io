@@ -1,230 +1,575 @@
+
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Michele Regina Bora</title>
-       
-        <link rel="icon" type="image/x-icon" href="assets\medusaa.png" />
-        
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet" />
-      
-        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
-       
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
-     
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-      
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Software Developer</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#about">Sobre mim</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Skills</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Meus Projetos</a></li>
-                         <li class="nav-item"><a class="nav-link" href="#codigos">Códigos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Michele R Bora - Personal Portfolio Website" />
+	<meta name="keywords" content="creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme" />
+	<meta name="author" content="Michele Regina Bora" />
+    <title>Michele Regina Bora - Personal Portfolio Website</title>
+  <!--favicon-img--> 
+   <link rel="icon" type="image/png" href="images/favicon.png">
+   <!--favicon-img-->
+    <link rel="stylesheet" href="css/index.css">
+    <!--main css file-->
+    <script src="js/gsap.min.js"></script>
+   </head>
+<body>
+    <!--contains all the div-->
+    <div id="all">
+    <!--mouse  follower-->
+        <div class="cursor"></div>
+    <!--mouse  follower-->
+    <!--loader-->
+        <div id="loader">
+            <span class="color">Michele Regina</span>Bora
+        </div>
+    <!--loader-end-->
+    <!--link-screen-->
+        <div id="breaker">
+        </div>
+        <div id="breaker-two">
+        </div>
+    <!--link-screen-->
+        <!--Main-Section-->
+        <!--Navigator-fullscreen-->
+        <div id="navigation-content">
+            <div class="logo">
+                <img src="images/logomedusa.png" alt="logo">
+            </div>
+            <div class="navigation-close">
+                <span class="close-first"></span>
+                <span class="close-second"></span>
+            </div>
+            <div class="navigation-links">
+                <a href="#" data-text="HOME" id="home-link" >HOME</a>
+                <a href="#" data-text="ABOUT" id="about-link" >ABOUT</a>
+                <a href="#" data-text="PORTFOLIO" id="portfolio-link" >PORTFOLIO</a>
+                <a href="#" data-text="ONLINE MAGAZINE" id="magazine-link" >ONLINE MAGAZINE</a>
+                <a href="#" data-text="CONTACT" id="contact-link" >CONTACT</a>
+            </div>
+        </div>
+        <!--Navigator-Fullscreen END-->
+          <!--Home Page-->
+        <!--Menubar-->
+        <div id="navigation-bar">
+            <img src="images/logomedusa.png" alt="logo">
+            <div class="menubar">
+                <span class="first-span"></span>
+                <span class="second-span"></span>
+                <span class="third-span"></span>
+            </div>
+        </div>
+        <!--Menubar End-->
+          <!--Header-->
+        <div id="header">
+            <div id="particles"></div>
+              <!--Social Media Links-->
+            <div class="social-media-links">
+                <a href="https://github.com/Micheleregina2022" target="_blank" rel="noopener"><img src="images/github logo.png" class="social-media" alt="github-logo"></a>
+                <a href="https://www.linkedin.com/in/michele-regina-bora/" target="_blank" rel="noopener"><img src="images/linkedin logo.png" class="social-media" alt="linkedin-logo"></a>
+                <a href="https://www.instagram.com/amicheleregina/" target="_blank" rel="noopener"><img src="images/instagram logo.png" class="social-media" alt="instagram-logo"></a>
+                <a href="https://revistavinhoscapitulares.online/" target="_blank" ><img src="images/writer logo.png" class="social-media" alt="writer-logo"></a>
+            </div>
+            <!--Social Media Links end-->
+            <div class="header-content">
+                <div class="header-content-box">
+                <div class="firstline"><span class="color">Michele Regina </span>Bora</div>
+                <div class="secondline">
+                I'm a
+            <span class="txt-rotate color" data-period="1200"data-rotate='[ "Developer.", "Pythonic.", "Writer." ]'></span>
+            <span class="slash">|</span>
+        </div>
+                    <div class="contact">
+                <a href="Mailto:#micheleregina.dev@gmail.com"><img src="images/mail.png" alt="email-pic" class="contactpic"></a><!--Your email Id write in place of "#"-->
+                </div>    
+            </div>
+            </div>
+            <!--header image-->
+            <div class="header-image">
+            <img src="images/me.jpeg" alt="logo">
+            </div>
+            <!--header image end-->
+        </div>
+           <!--Header End-->
+        <!--HomePage End-->
+        <!--Main-Section End-->
+        <!--about-->
+        <div id="about">
+            <div class="color-changer">
+            <div class="color-panel">
+                <img src="images/gear.png" alt="">
+            </div>
+            <div class="color-selector">
+                <div class="heading">Custom Colors</div>
+                <div class="colors">
+                    <ul >
+                    <li>
+                        <a href="#0" class="color-red " title="color-red"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-purple" title="color-purple"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-malt" title="color-malt"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-green" title="color-green"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-blue" title="color-blue"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-orange" title="color-orange"></a>
+                    </li>
                     </ul>
                 </div>
             </div>
-        </nav>
-    
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 h-100">
-                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white font-weight-bold">MICHELE REGINA BORA</h1>
-                        <hr class="divider" /> 
+            </div>
+            <!--about content-->
+            <div id="about-content">
+                <div class="about-header">
+                    About <span class="color">Me</span>
+                    <span class ="header-caption">Get to Know <span class="color"> me.</span></span>
+                </div>
+                <div class="about-main">
+            <div class="about-first-paragraph wow">
+            <!--about description-->
+               <span class="about-first-line">
+                    I'm creative 
+                    <span class="color">software developer</span>
+                     based in Brazil </span>
+                     <br>
+               <span class="about-second-line">Determination propels my passion as I embark on this journey, providing a fresh perspective and a keen eagerness to learn. Every step of the process brings me satisfaction.</span>
+               <div class="cv">
+                <a href="#"><button>Download <span class="colors">CV</span></button></a>
+            </div>
+            <div class="language-buttons">
+                <a href="https://drive.google.com/file/d/1Arm7fX-B8DExfZ-EKg22574bVk9s7Yxf/view?usp=drive_link" target="_blank"><button class="pt-button">PT</button></a>
+                <a href="https://drive.google.com/file/d/1IzV4qQcms4Co-IDi8ZX5Hee2rNQZc9Ih/view?usp=sharing" target="_blank"><button class="en-button">EN</button></a>
+            </div>
+            </div>
+            <!--about picture-->
+            <div class="about-img">
+                <img src="images/about.png" alt="Your Image">
+            </div>
+            </div>
+            </div>
+            <!--services start-->
+            <div id="services">
+                <div class="color-changer">
+                    <div class="color-panel">
+                        <img src="images/gear.png" alt="">
                     </div>
-                    <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5"> Hello World!   </p>
-                        <a class="btn btn-primary btn-xl" href="#about" style="margin-top: 50px;">Sobre mim</a>
+                    <div class="color-selector">
+                        <div class="heading">Custom Colors</div>
+                        <div class="colors">
+                            <ul >
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+            <!--services header-->
+                    <div class="services-heading wow">
+                        <span class="color">My</span> Services
+                    </div>
+            <!--services header end-->
+            <!--services content-->
+                    <div class="services-content">
+                           <div class="service-one service wow">
+                               <div class="service-img">
+                               <img src="images/coding.png" alt="service-one">
+                               </div>
+                               <div class="service-description">
+                                <h2>Web Development</h2>
+                                <p>Crafting intuitive interfaces, ensuring engaging user experiences, implementing robust server-side functionality, and managing seamless hosting and deployment.</p>
+                               </div>
+                           </div>
+                           <div class="service-two service wow">
+                               <div class="service-img">
+                               <img src="images/python.png" alt="service-two">
+                               </div>
+                               <div class="service-description">
+                                <h2>Python Development</h2>
+                                <p>Focusing on back-end development, machine learning techniques, and data analysis.</p>
+                               </div>
+                           </div>
+                           <div class="service-three service wow">
+                            <div class="service-img">
+                               <img src="images/bulb.png" alt="service-three">
+                            </div>
+                            <div class="service-description">
+                                <h2>Innovative Mindset</h2>
+                                <p>Continuously seeking creative solutions to propel projects and inspire innovative outcomes.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!--services content end-->
+            <!--services end-->
+            <div id="skills">
+                <div class="skills-header">
+                     My <span class="color"> Skills</span>
+                </div>
+                <div class="skills-content " style="text-align: center;">
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        HTML/CSS
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="html-progress wow">95%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                      Javascript and Node.js
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="js-progress wow">60%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        Bootstrap
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="bootstrap-progress wow">75%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        PYTHON
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="python-progress wow">83%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        SQL
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="sql-progress wow">80%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        Focus
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="focus-progress wow">100%</div>
+                    </div>
                     </div>
                 </div>
             </div>
-        </header>
-        
-        <section class="page-section bg-primary" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <figure>
-                           <a href="https://www.instagram.com/amicheleregina" target="_blank"> <img src="assets\instagram.png" style="height: 35px; margin-top: -40px;"></a>
-                            <img src="assets\iconn.png" style="height: 180px; margin-top: -60px;">
-                           <a href="https://www.linkedin.com/in/michele-regina-bora/" target="_blank"> <img src="assets\logotipo-do-linkedin.png" style="height: 35px; margin-top: -40px;"></a>
-                        </figure>
-                        <h2 class="text-white mt-0"> Quem sou? </h2>
-                        <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4" style="text-align: justify;"> Atualmente, estou no meio do curso de tecnólogo em Análise e Desenvolvimento de Sistemas, em constante evolução. 
-                            Meu estágio na CidadeSoft, em Guarapuava-PR, como suporte do sistema ERP, me permite entender melhor as operações empresariais e como a tecnologia se integra a elas.
-
-                            Além do estágio, estou focada em aprofundar minha especialização em programação e análise de dados. Minha paixão por essas áreas está direcionando meus estudos para Python, 
-                            Dados, Machine Learning e Inteligência Artificial, que vejo como 
-                            fundamentais para o futuro do mercado.
-
-                            Minha trajetória começa na Filosofia, busquei seguir minha paixão por conhecimento. No entanto, aos 25 anos mudei para a Tecnologia, que, além de também ser 
-                            apaixonante, trouxe-me satisfação profissional. Enfim, encontrei na programação 
-                            back-end e na análise de dados a fonte para grandes realizações.</p>
-
-                        <a class="btn btn-light btn-xl" href="#services" style="margin-top: 70px;"> Precisa de uma dev?</a>
-                    </div>
-                </div>
+            <div class="footer">
+             <div class="footer-text">
             </div>
-        </section>
-       
-        <section class="page-section" id="services">
-            <div class="container px-4 px-lg-5">
-                <h2 class="text-center mt-0">Skills</h2>
-                <hr class="divider" />
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-laptop-fill fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">    </h3>
-                            <p class="text-muted mb-0">Desktop</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-database-fill fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">  </h3>
-                            <p class="text-muted mb-0">DataBase</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi bi-filetype-py fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">  </h3>
-                            <p class="text-muted mb-0">Python</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-robot fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">  </h3>
-                            <p class="text-muted mb-0"> AI </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-md-12 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-heart-fill fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">  </h3>
-                            <p class="text-muted mb-0"> Made with Love </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div id="portfolio">
-            <div class="container-fluid p-0">
-                <div class="row g-0">
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1a.png" title="">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1a.png" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50"> </div>
-                                <div class="project-name">WEB</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2b.jpg">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2a.png" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50"> </div>
-                                <div class="project-name"> Projeto de Análise de Dados - em desenvolvimento </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/3a.png" title="">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/3a.png" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50"> </div>
-                                <div class="project-name">Projeto de Cibersegurança - em desenvolvimento </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/4a.png" title="">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/4a.png" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Neurocomputação (em planejamento)</div>
-                                <div class="project-name">   </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5a.png" title="">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5a.png" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Inteligência Artificial (em planejamento)</div>
-                                <div class="project-name">    </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6a.png" title="">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/6a.png" alt="..." />
-                            <div class="portfolio-box-caption p-3">
-                                <div class="project-category text-white-50">MACHINE LEARNING (em planejamento)</div>
-                                <div class="project-name">    </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
             </div>
         </div>
-       
-        <section class="page-section bg-dark text-white" id="codigos">
-            <div class="container px-4 px-lg-5 text-center">
-                <figure>
-                    <img src="assets/medusaa.png" style="height: 200px;">
-                </figure>
-                <h2> MyCodes </h2>
-                <a class="btn btn-danger btn-xl" href="https://github.com/Micheleregina2022" target="_blank">GITHUB</a>
-            </div>
-        </section>
-
-        <section class="page-section" id="contact">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 col-xl-6 text-center">
-                        <h2 class="mt-0">Vamos conversar!</h2>
-                        <hr class="divider" />
-                        <p class="text-muted mb-5">Entre em contato para propostas de projetos, sugestões, colaborações, etc</p>
+        <!--about end-->
+        <!--portfolio-->
+        <div id="portfolio">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                        <li>
+                            <a href="#0" class="color-red " title="color-red"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-purple" title="color-purple"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-malt" title="color-malt"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-green" title="color-green"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-blue" title="color-blue"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-orange" title="color-orange"></a>
+                        </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                    <div class="col-lg-6">
-
-                      <br> <br>
-
-                <div class="row gx-8 gx-lg-6 justify-content-center" >
-                    <div class="col-lg-8 text-center mb-10 mb-lg-0">
-                        <i class="bi bi-envelope"></i>
-                        <div >micheleregina.dev@gmail.com </div>
+                </div>
+            <div class="portfolio-header"> <span class="color"> My </span> Portfolio
+            <span class ="header-caption"> Some Of My <span class="color"> Projects</span></span></div>
+             <div id="portfolio-content">
+                 <div class="portfolio portfolio-first">
+                     <div class="portfolio-image">
+                        <img src="images/portfolio-first.png" alt="portfolio-first">
+                     </div>
+                     <div class="portfolio-text">
+                         <h2>My Website</h2>
+                         <p>This repository offers a simple template for creating your personal website. It includes HTML, CSS, and JavaScript 
+                            files with features like loader animation, color-changing options, animated navigation menu, and dynamic text rotation. 
+                            Easily customize the content and styles to fit your preferences. The template is responsive, and cursor animations enhance the user experience. 
+                            Use it as a starting point for your website project.</p>
+                         <div class="button"><a href="https://github.com/Micheleregina2022/micheleregina2022.github.io" target="_blank"><button><span class="index"> View Repository<i class="gg-arrow-right"></i></span></button></a></div>
+                     </div>
+                 </div>
+                <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-second.jpg" alt="portfolio-first">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Secure Login</h2>
+                        <p>The security process involves the use of Bcrypt, the data encryption library, and two-factor authentication. 
+                        The Flask framework was employed along with Twilio API.</p>
+                        <div class="button"><a href="https://github.com/Micheleregina2022/Secure-Login" target="_blank"><button><span class="index"> View Repository<i class="gg-arrow-right"></i></span></button></a></div>
                     </div>
                 </div>
+             
+                <div class="portfolio portfolio-third">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-third.png" alt="portfolio-third">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Python Movie Recommender</h2>
+                        <p>The code is a content-based filtering algorithm in Python, using the Movie Database API. Collects user preferences, makes API 
+                            requests for movie recommendations based on those preferences, and shows a recommended random movie.</p>
+                        <div class="button"><a href="https://github.com/Micheleregina2022/Me-Indica-Filmes-MachineLearning" target="_blank"><button><span class="index"> View Repository<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+                <div class="portfolio portfolio-fourth">
+                    <div class=" portfolio-image">
+                        <img src="images/portfolio-fourth.png" alt="portfolio-fourth">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Wine Universe Database</h2>
+                        <p>The proposition endeavors to furnish a comprehensive solution for the establishment of a proficient and operational 
+                            database designed to oversee information pertinent to the domain of viniculture.</p>
+                        <div class="button"><a href="https://github.com/Micheleregina2022/Banco-de-Dados-Adega" target="_blank"><button><span class="index"> View Repository<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+                 </div> 
+                 <div class="footer">
+                    <div class="footer-text">
+                 </div>
+                   </div>
+             </div>
+        <!--portfolio end-->
+        <!--magazine-->
+        <div id="magazine">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                        <li>
+                            <a href="#0" class="color-red " title="color-red"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-purple" title="color-purple"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-malt" title="color-malt"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-green" title="color-green"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-blue" title="color-blue"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-orange" title="color-orange"></a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+        <div class="magazine-header"> <span>Vinhos Capitulares</span>
+            <span class ="header-caption"> Latest <span class="color"> editions.</span> Available in PT.</span></div>
+            <div class="magazine-content">
+                 <div class="magazines">
+                     <a href="https://revistavinhoscapitulares.online" target="_blank">
+                     <div class="img">
+                        <img src="images/preview.png" alt="magazine-preview">
+                        <div class="magazine-date">15 Dec,20</div>
+                     </div>
+                     <div class="magazine-text">
+                         <h3>Preview of the First Edition</h3>
+                         <p>Vinhos Capitulares is a project that aims to have a refined, distinct, 
+                            and personal approach, establishing a connection between knowledge and pleasure, 
+                            inspiring sophistication, and opening new chapters of experience.</p>
+                     </div></a>
+                 </div>      
+                 <div class="magazines">
+                    <a href="https://www.linkedin.com/newsletters/vinhos-capitulares-resenhas-7141517889316069376" target="_blank">
+                    <div class="img">
+                        <img src="images/newsletter.png" alt="magazine-newsletter">
+                        <div class="magazine-date">15 Dec,23</div>
+                    </div>
+                    <div class="magazine-text">
+                        <h3>Newsletter LinkedIn</h3>
+                        <p>Our LinkedIn newsletter will have reviews, 
+                            which will give you an extra dose of insight.</p>
+                    </div></a>
+                </div>
+                <div class="magazines">
+                    <a href="" target="_blank">
+                        <div class="embed-container">
+                            <div class="embed-wrapper">
+                                <iframe loading="lazy" src="https://www.canva.com/design/DAF2ylM2gr4/view?embed"></iframe>
+                            </div>
+                            <a href="https://www.canva.com/design/DAF2ylM2gr4/view?utm_content=DAF2ylM2gr4&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">Primeira Edição [Tamanho original]</a>
+                        </div>                        
+                        <div class="magazine-date">08 Jan,24</div>
+                    </div>
+                    <div class="magazine-text">
+                        <h3>First Edition</h3>
+                        <p>Coming Soon</p>
+                    </div></a>
+                </div>          
+                </div>        
             </div>
-        </section>
+            </div>
+            <div class="footer">
+                <div class="footer-text">
+            </div>
+               </div>
+        </div>
+        <!--magazine end-->
+        <!--contact-->
+     <div id="contact">
+        <div class="color-changer">
+            <div class="color-panel">
+                <img src="images/gear.png" alt="">
+            </div>
+            <div class="color-selector">
+                <div class="heading">Custom Colors</div>
+                <div class="colors">
+                    <ul >
+                    <li>
+                        <a href="#0" class="color-red " title="color-red"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-purple" title="color-purple"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-malt" title="color-malt"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-green" title="color-green"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-blue" title="color-blue"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-orange" title="color-orange"></a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+         <div class="contact-header">Contact <span class="color"> Me</span>
+        <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div></div>
+        <div class="contact-content">
+            <!--Contact form-->
+             <div class="contact-form">
+                 <div class="form-header">
+                     Message Me
+                 </div>
+                 <form id="myForm" action="#">
+                    <div class="input-line">
+                        <input  id="name" type="text" placeholder="Name" class="input-name">
+                        <input id="email" type="email" placeholder="Email"  class="input-name">
+                    </div>
+                    <input type="text" id="subject" placeholder="subject" class="input-subject">
+                    <textarea id ="body" class="input-textarea" placeholder="message"></textarea>
+                    <button type="submit" id="submitBtn">Submit</button>
+                 </form>
+               
+             </div>
+            <!--Contact form-->
+            <!--Contact information-->
+             <div class="contact-info">
+                <div class="contact-info-header">
+                    Contact Info
+                </div>
+                <div class="contact-info-content">
+                <div class="contect-info-content-line">
+                    <img src="./images/icon-name.png" class="icon" alt="name-icon">
+                    <div class="contact-info-icon-text">
+                        <h6>Name</h6>
+                        <p>Michele Regina Bora</p>
+                  </div>
+                </div>
+                <div class="contect-info-content-line">
+                  <img src="./images/icon-location.png" class="icon" alt="location-icon">
+                  <div class="contact-info-icon-text">
+                      <h6>Location</h6>
+                      <p>Paraná, Brazil</p>
+                </div>
+              </div>
+                </div>
+              <div class="contect-info-content-line">
+                  <img src="./images/icon-email.png" class="icon" alt="email-icon">
+                  <div class="contact-info-icon-text">
+                      <h6>Email</h6>
+                      <p>micheleregina.dev@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <!--Contact information end-->
+           </div>
+        </div>
+     </div> 
+    </div>
+    <!--all the divisions-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/server.js"></script>
+    <script src="js/ajax-script.js"></script>
+    <!--particles script-->
+    <script>
+  particlesJS("particles", {"particles":{"number":{"value":40,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffb6c1","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+    </script>
 
-        <footer class="bg-light py-5">
-            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Desenvolvido por Michele Regina Bora</div></div>
-        </footer>
-       
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-       
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-        
-        <script src="js/scripts.js"></script>
-       <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+</body>
 </html>
