@@ -10,7 +10,7 @@ $(document).ready(function() {
 
         // Check if any field is empty
         if (name === '' || email === '' || subject === '' || body === '') {
-            alert('Please fill in all fields');
+            alert('Preencha todos os campos');
             return;
         }
 
@@ -29,11 +29,11 @@ $(document).ready(function() {
             contentType: 'application/json',
             data: JSON.stringify(formData),
             success: function(response) {
-                alert('Form submitted successfully');
+                alert('Formulário enviado com sucesso!');
                 $('#myForm')[0].reset(); // Reset the form after successful submission
             },
             error: function(error) {
-                alert('Error submitting form');
+                alert('Erro');
             }
         });
     });

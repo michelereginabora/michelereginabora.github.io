@@ -1,5 +1,4 @@
 require('dotenv').config();
-
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
@@ -29,17 +28,16 @@ app.post('/submit-form', async (req, res) => {
     try {
         // Send an email with form data to yourself
         await transporter.sendMail({
-            from: 'your-email@gmail.com',
+            from: formData.email, // Use the user's email as the sender
             to: 'micheleregina.dev@gmail.com', // Replace with your email address
             subject: 'New Form Submission',
             text: JSON.stringify(formData)
         });
 
-        console.log('Email sent successfully');
-        res.send('Form submitted successfully!');
+        console.log('Email enviado com sucesso');
     } catch (error) {
-        console.error('Error sending email:', error);
-        res.status(500).send('Error processing the form');
+        console.error('Erro no envio do email:', error);
+        res.status(500).send('Erro ao processar o formulário');
     }
 });
 

@@ -13,7 +13,7 @@
 
       // Check if any field is empty
       if (name === '' || email === '' || subject === '' || body === '') {
-        alert('Please fill in all fields');
+        alert('Preencha todos os campos');
         return;
       }
 
@@ -32,11 +32,11 @@
         contentType: 'application/json',
         data: JSON.stringify(formData),
         success: function() {
-          alert('Form submitted successfully');
+          alert('Formulário enviado com sucesso');
           $('#myForm')[0].reset(); // Reset the form after successful submission
         },
         error: function() {
-          alert('Error submitting form');
+          alert('Erro ao submeter formulário');
         }
       });
     });

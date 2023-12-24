@@ -1516,6 +1516,7 @@ For devices with smaller width like mobile phone
     .about-second-line{
         opacity: .8;
         font-size: 15px;
+        text-align-last: justify;
     }
     .about-main{
         display: flex;
