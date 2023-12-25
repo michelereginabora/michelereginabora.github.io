@@ -1,4 +1,6 @@
-$(window).on('load',function(){
+// Event triggered when the window is fully loaded
+$(window).on('load', function(){
+  // Animation to hide the loader
   gsap.to('#loader',1,{y:"-100%"});
   gsap.to('#loader',1,{opacity:0});
   gsap.to('#loader',0,{display:"none",delay:1});
@@ -6,11 +8,16 @@ $(window).on('load',function(){
   gsap.to('#navigation-content',0,{display:"none"});
   gsap.to('#navigation-content',0,{display:"flex",delay:1});
 })
+
+// Event handler for color panel click
 $(function(){
   $('.color-panel').on("click",function(e) {
     e.preventDefault();
     $('.color-changer').toggleClass('color-changer-active');
 });
+
+
+  // Event handler for color selection
 $('.colors a').on("click",function(e) {
   e.preventDefault();
   var attr = $(this).attr("title");
@@ -18,6 +25,8 @@ $('.colors a').on("click",function(e) {
   $('head').append('<link rel="stylesheet" href="css/'+attr+'.css">');
 });
 });
+
+// Event handlers for menu bar and navigation close
 $(function(){
      $('.menubar').on('click',function(){
          gsap.to('#navigation-content',.6,{y:0});
@@ -27,8 +36,10 @@ $(function(){
     });
    }); 
 
+   // Animation for rotating text
 $(function(){
     var TxtRotate = function(el, toRotate, period) {
+      // Constructor for text rotation animation
         this.toRotate = toRotate;
         this.el = el;
         this.loopNum = 0;
@@ -85,6 +96,8 @@ $(function(){
         document.body.appendChild(css);
       };
 })
+
+// Event handlers for navigation links
 $(function(){
 
     $('#about-link').on('click',function(){
@@ -160,33 +173,43 @@ gsap.to('#navigation-content',0,{display:'flex',delay:2});
 })
 
 })
-$(function(){
- var body =  document.querySelector('body');
- var $cursor = $('.cursor')
-   function cursormover(e){
-    
-    gsap.to( $cursor, {
-      x : e.clientX ,
-      y : e.clientY,
-      stagger:.002
-     })
-   }
-   function cursorhover(e){
-    gsap.to( $cursor,{
-     scale:1.4,
-     opacity:1
-    })
-    
-  }
-  function cursor(e){
-    gsap.to( $cursor, {
-     scale:1,
-     opacity:.6
-    }) 
-  }
-  $(window).on('mousemove',cursormover);
-  $('.menubar').hover(cursorhover,cursor);
-  $('a').hover(cursorhover,cursor);
-  $('.navigation-close').hover(cursorhover,cursor);
 
-})
+$(function(){
+  // Get the body element
+  var body = document.querySelector('body');
+  // Select the cursor element
+  var $cursor = $('.cursor');
+
+  // Function to move the cursor based on mouse movement
+  function cursormover(e){
+    gsap.to($cursor, {
+      x: e.clientX,
+      y: e.clientY,
+      stagger: 0.002
+    });
+  }
+
+  // Function to change cursor appearance on hover
+  function cursorhover(e){
+    gsap.to($cursor, {
+      scale: 1.4,
+      opacity: 1
+    });
+  }
+
+  // Function to reset cursor appearance
+  function cursor(e){
+    gsap.to($cursor, {
+      scale: 1,
+      opacity: 0.6
+    });
+  }
+
+  // Event listener for mouse movement
+  $(window).on('mousemove', cursormover);
+
+  // Event listeners for cursor hover on specific elements
+  $('.menubar').hover(cursorhover, cursor);
+  $('a').hover(cursorhover, cursor);
+  $('.navigation-close').hover(cursorhover, cursor);
+});

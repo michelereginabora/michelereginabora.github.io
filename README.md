@@ -30,6 +30,7 @@ _Feel free to utilize this template as a starting point to create your own websi
     - [Pre-requisites](#pre-requisites)
     - [Installation](#installation-1)
     - [Configuration](#configuration)
+    - [Local Server Configuration (IMPORTANT)](#local-server-configuration-important)
     - [Running the Server](#running-the-server)
   - [Usage](#usage-2)
       - [Important Note for Production](#important-note-for-production)
@@ -55,7 +56,10 @@ This repository contains the HTML, CSS, and JavaScript code for Michele Regina B
 - JavaScript
 - GSAP (GreenSock Animation Platform) library for animations
 - Particle.js for particle effects
-- Node.Js ()
+- Node.js (used for the server-side handling of the contact form)
+- **Google Cloud Platform (GCP):**
+  - App Engine with Node.js for deploying the server handling form submissions.
+
 
 
 ## Installation
@@ -63,7 +67,7 @@ This repository contains the HTML, CSS, and JavaScript code for Michele Regina B
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Micheleregina2022/your-repository.git
+   git clone https://github.com/Micheleregina2022/micheleregina2022.github.io/
    ```
 
 2. Open the `index.html` file in a web browser.
@@ -126,6 +130,7 @@ If you'd like to contribute to this project, please follow these steps:
 
 </br> 
 
+
 ## JavaScript Code Documentation - Back-End (Forms)
 
 This section contains the back-end code for handling form submissions in a JavaScript application. The back-end is built using Node.js, Express, and Nodemailer for sending emails.
@@ -134,9 +139,16 @@ This section contains the back-end code for handling form submissions in a JavaS
 
 Make sure you have Node.js installed on your machine. You can download it from [https://nodejs.org/](https://nodejs.org/).
 
+
 ### Installation
 
-1. Install the required Node.js packages:
+1. Navigate to the `js` folder in the project directory:
+
+    ```bash
+    cd path/to/your/project/js
+    ```
+
+2. Install the required Node.js packages:
 
     ```bash
     npm install
@@ -155,12 +167,32 @@ Make sure you have Node.js installed on your machine. You can download it from [
 
     Replace `your-email@gmail.com` with your Gmail email address and `your-email-password` with your Gmail application-specific password. Make sure to follow [Gmail's application-specific password guide](https://support.google.com/accounts/answer/185833?hl=en) to generate the password.
 
+</br> 
+
+### Local Server Configuration (IMPORTANT)
+
+If you are running the application locally, please ensure to update the form submission endpoint in the JavaScript code. Open the `index.html` file and locate the following line:
+
+    ```html
+    <form id="myForm" action="https://starlit-gift-403714.rj.r.appspot.com/submit-form" method="post">
+    ```
+
+
+Replace the action attribute with the local server endpoint if needed:
+
+    ```html
+    <form id="myForm" action="http://localhost:your-port/submit-form" method="post">
+    ```
+
+Make sure to replace your-port with the actual port number your local server is running on. Keep in mind that this change is necessary to connect the form submission to your locally hosted server.
+
+
 ### Running the Server
 
 1. Start the Node.js server:
 
     ```bash
-    npm start
+    node serve.js
     ```
 
     The server will run on `http://localhost:3000`.
@@ -174,6 +206,12 @@ Make sure you have Node.js installed on your machine. You can download it from [
 #### Important Note for Production
 
 **Please Note:** The current server configuration is suitable for local development. If you plan to deploy this website to a production environment, additional adjustments are necessary. For a production-ready setup, consult the documentation of your hosting provider and make the necessary modifications to enhance security and performance.
+
+**Production Environment:**
+For the live version of the website, the form submission is currently configured to use a cloud-based server. If you are hosting the website in production, ensure that the form submission endpoint in the `index.html` file points to the appropriate server.
+
+
+For more details, refer to the [Server Documentation](server-form\server-gcloud-app-engine.md)
 
 </br> 
 

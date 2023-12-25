@@ -18,3 +18,7 @@ To deploy this website and make it publicly accessible, you can follow these ste
    - Thoroughly test your deployed website to ensure all functionalities, including form submissions, work as expected in the production environment.
 
 Feel free to customize these steps based on your specific deployment scenario. If you encounter any issues, refer to the documentation of the platforms you're using for more detailed guidance.
+
+## Deploying the Server Form on Google Cloud Platform (GCP):
+
+[Server Documentation](server-form\server-gcloud-app-engine.md)

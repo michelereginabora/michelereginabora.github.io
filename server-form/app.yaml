@@ -1,0 +1,11 @@
+runtime: nodejs20
+
+env_variables:
+  EMAIL_USER: "email"
+  EMAIL_PASS: "senha de app"
+
+handlers:
+- url: /submit-form
+  script: auto
+- url: /.*
+  script: auto
