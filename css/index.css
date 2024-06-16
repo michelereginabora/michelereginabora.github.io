@@ -700,11 +700,11 @@ body{
    position: relative;
    overflow: hidden;
 }
-.html-progress{
+.js-progress{
     position: absolute;
     top:10%;
     left:1%;
-    height: 80%;
+    height: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -713,7 +713,7 @@ body{
     border-radius: 10px;
     background: #c70039;
 }
-.js-progress{
+.ts-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -727,7 +727,7 @@ body{
     border-radius: 10px;
     background: #c70039;
 }
-.bootstrap-progress{
+.php-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -748,7 +748,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width:83%;
+    width:82%;
     border-radius: 10px;
     background: #c70039;
     transition: all .4s ease;
@@ -762,7 +762,7 @@ body{
     align-items: center;
     justify-content: center;
     transition: all .4s ease;
-    width:80%;
+    width:90%;
     border-radius: 10px;
     background: #c70039;
 }
