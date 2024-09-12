@@ -102,16 +102,16 @@
                 ],
                 "locales": {
                     "en": {
-                        "description": "<b>Adote na Web Backend</b> is the infrastructure behind the animal adoption platform. Developed with Java Spring, this open-source backend implements a clean architecture to ensure scalability and maintainability. It uses Spring Boot for quick configuration, Spring Data JPA for efficient persistence, and Spring Security for secure authentication. The system manages connections between protectors, NGOs, and adopters, processing data on animals, users, and adoptions. Well-documented RESTful APIs facilitate integration with the React frontend.",
-                        "tags": ["Java", "Spring Boot", "JPA", "RESTful API", "Clean Architecture", "Open Source"]
+                        "description": "<b>Adote na Web Backend</b> is the infrastructure behind the animal adoption platform. Developed with Java Spring. It uses Spring Boot for quick configuration, Spring Data JPA for efficient persistence, and Spring Security for secure authentication. The system manages connections between protectors, NGOs, and adopters, processing data on animals, users, and adoptions. Well-documented RESTful APIs facilitate integration with the React frontend.",
+                        "tags": ["Java", "Spring", "JPA", "PostgreSQL ", "Spring Security", "RESTful API", "Open Source"]
                     },
                     "es": {
-                        "description": "<b>Adote na Web Backend</b> es la infraestructura detrás de la plataforma de adopción de animales. Desarrollado con Java Spring, este backend de código abierto implementa una arquitectura limpia para garantizar escalabilidad y mantenibilidad. Utiliza Spring Boot para una configuración rápida, Spring Data JPA para una persistencia eficiente y Spring Security para una autenticación segura. El sistema gestiona las conexiones entre protectores, ONG y adoptantes, procesando datos de animales, usuarios y adopciones. Las APIs RESTful bien documentadas facilitan la integración con el frontend de React.",
-                        "tags": ["Java", "Spring Boot", "JPA", "API RESTful", "Arquitectura Limpia", "Código Abierto"]
+                        "description": "<b>Adote na Web Backend</b> es la infraestructura detrás de la plataforma de adopción de animales. Desarrollado con Java Spring, utiliza Spring Boot para una configuración rápida, Spring Data JPA para una persistencia eficiente y Spring Security para una autenticación segura. El sistema gestiona las conexiones entre protectores, ONG y adoptantes, procesando datos de animales, usuarios y adopciones. Las APIs RESTful bien documentadas facilitan la integración con el frontend de React.",
+                        "tags": ["Java", "Spring", "JPA", "API RESTful", "PostgreSQL ", "Spring Security", "Código Abierto"]
                     },
                     "pt": {
-                        "description": "<b>Adote na Web Backend</b> é a infraestrutura por trás da plataforma de adoção de animais. Desenvolvido com Java Spring, este backend open-source implementa uma arquitetura limpa para garantir escalabilidade e manutenibilidade. Utiliza Spring Boot para configuração rápida, Spring Data JPA para persistência eficiente, e Spring Security para autenticação segura. O sistema gerencia as conexões entre protetores, ONGs e adotantes, processando dados de animais, usuários e adoções. APIs RESTful bem documentadas facilitam a integração com o frontend React.",
-                        "tags":  ["Java", "Spring Boot", "JPA", "RESTful API", "Clean Architecture", "Open Source"]
+                        "description": "<b>Adote na Web Backend</b> é a infraestrutura por trás da plataforma de adoção de animais. Desenvolvido com Java Spring, utiliza Spring Boot para configuração rápida, Spring Data JPA para persistência eficiente, e Spring Security para autenticação segura. O sistema gerencia as conexões entre protetores, ONGs e adotantes, processando dados de animais, usuários e adoções. APIs RESTful bem documentadas facilitam a integração com o frontend React.",
+                        "tags":  ["Java", "Spring", "JPA", "RESTful API", "PostgreSQL ", "Spring Security", "Open Source"]
                     }
                 }
             },
