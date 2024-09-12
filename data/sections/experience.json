@@ -1,0 +1,89 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Professional</span> Experience",
+            "description": "A look into my work experience and career journey."
+        },
+
+        "es": {
+            "title": "<span class='text-primary'>Experiencia</span> Profesional",
+            "description": "Un vistazo a mi experiencia laboral y trayectoria profesional."
+        },
+
+        "pt": {
+            "title": "Experiência <span class='text-primary'>Profissional</span>",
+            "description": "Uma visão geral da minha experiência profissional e trajetória profissional."
+        }
+    },
+
+    "items": [
+        
+        {
+            "id": "experience_item_3",
+            "place": "@link{places.prefeitura}",
+            "period": ["2023/02", "2023/07"],
+            "locales": {
+                "en": {
+                    "title": "IT Infrastructure and Support",
+                    "description": "Provided technical support to users, both in-person and remotely, assisting in the resolution of issues related to hardware, software, and network; Performed data backup and recovery; Monitored and maintained servers and network infrastructure.",
+                    "tags": ["Technical Support", "Operating Systems", "IT Infrastructure", "Troubleshooting", "Servers", "Network"]
+                },
+                    "es": {
+                    "title": "Infraestructura y Soporte de TI",
+                    "description": "Prestación de soporte técnico a usuarios, tanto presencial como remotamente, ayudando en la resolución de problemas relacionados con hardware, software y red; Realización de copias de seguridad y recuperación de datos; Monitoreo y mantenimiento de servidores e infraestructura de red.",
+                    "tags": ["Soporte Técnico", "Sistemas operativos", "Infraestructura de TI", "Resolución de problemas", "Servidores", "Red"]
+                },
+                "pt": {
+                    "title": "Infraestrutura e Suporte de TI",
+                    "description": "Prestação de suporte técnico aos usuários, tanto presencialmente quanto remotamente, auxiliando na resolução de problemas relacionados a hardware, software e rede; Realização de backup e recuperação de dados; Monitoramento e manutenção dos servidores e da infraestrutura de rede..",
+                    "tags": ["Suporte Técnico", "Sistemas operacionais", "Infraestrutura de TI", "Solução de problemas", "Servidores", "Rede"]
+                }
+            }
+        },
+
+        {
+            "id": "experience_item_2",
+            "place": "@link{places.cidadesoft}",
+            "period": ["2023/08", "2023/12"],
+            "locales": {
+                "en": {
+                    "title": "Software Support Technician",
+                    "description": "Provided technical support for software issues, focusing on ERP systems. Assisted users in troubleshooting software problems and understanding business requirements. Collaborated with development teams to improve software functionality based on user feedback.",
+                    "tags": ["Technical Support", "ERP", "Software Troubleshooting", "Business Requirements"]
+                },
+                    "es": {
+                    "title": "Técnica de Soporte de Software",
+                    "description": "Proporcioné soporte técnico para problemas de software, centrándome en sistemas ERP. Asistí a los usuarios en la resolución de problemas de software y en la comprensión de los requisitos del negocio. Colaboré con los equipos de desarrollo para mejorar la funcionalidad del software basándome en los comentarios de los usuarios.",
+                    "tags": ["Soporte Técnico", "ERP", "Solución de problemas de software", "Requisitos de negocio"]
+                },
+                "pt": {
+                    "title": "Técnica de Suporte de Software",
+                    "description": "Forneci suporte técnico para problemas de software, com foco em sistemas ERP. Auxiliei usuários na resolução de problemas de software e na compreensão de requisitos de negócio. Colaborei com equipes de desenvolvimento para melhorar a funcionalidade do software com base no feedback dos usuários.",
+                    "tags": ["Suporte Técnico", "ERP", "Solução de problemas de software", "Requisitos de negócio"]
+                }
+            }
+        },
+        {
+            "id": "experience_item_1",
+            "place": "@link{places.boxti}",
+            "period": ["2024/01", "now"],
+            "locales": {
+                "en": {
+                    "title": "Fullstack Web Developer",
+                    "description": "Development and maintenance of systems using JavaScript and PHP in legacy and modern projects with Vue.js, Node.js, and TypeScript. Participation in all phases of task life cycles. Application of Scrum agile methodology using tools such as Jira. Elaboration and maintenance of technical documentation for company projects.",
+                    "tags": ["TypeScript", "JavaScript", "Node.js", "Vue.js", "Clean Architecture", "TypeORM"]
+                },
+                    "es": {
+                    "title": "Desarrolladora Web Fullstack",
+                    "description": "Desarrollo y mantenimiento de sistemas utilizando JavaScript y PHP en proyectos heredados y modernos con Vue.js, Node.js y TypeScript. Participación en todas las fases del ciclo de vida de las tareas. Aplicación de la metodología ágil Scrum con herramientas como Jira. Elaboración y mantenimiento de la documentación técnica de los proyectos de la empresa.",
+                    "tags": ["TypeScript", "JavaScript", "Node.js", "Vue.js", "Arquitectura limpia", "TypeORM"]
+                },
+                "pt": {
+                    "title": "Desenvolvedora Web Fullstack",
+                    "description": "Desenvolvimento e manutenção de sistemas utilizando JavaScript e PHP em projetos legados e modernos com Vue.js, Node.js e TypeScript. Participação em todas as fases do ciclo de vida das tarefas. Aplicação da metodologia ágil Scrum com ferramentas como Jira. Elaboração e manutenção da documentação técnica dos projetos da empresa.",
+                    "tags": ["TypeScript", "JavaScript", "Node.js", "Vue.js", "Arquitetura limpa", "TypeORM"]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,354 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Skill</span> Set",
+            "description": "Exploring the diverse range of skills I've acquired and developed:"
+        },
+        "es": {
+            "title": "Conjunto de <span class='text-primary'>Habilidades</span>",
+            "description": "Explorando la diversidad de habilidades que he adquirido y desarrollado:"
+        },
+        "pt": {
+            "title": "Conjunto de <span class='text-primary'>Habilidades</span>",
+            "description": "Explore a diversidade de habilidades que adquiri e desenvolvi:"
+        }
+    },
+
+    "subcategories": [
+        {
+            "id": "abilities",
+            "type": "grid",
+            "progress": null,
+            "faIcon": "fa-solid fa-square",
+            "locales": {
+                "en": {"title": null}
+            }
+        },
+
+        {
+            "id": "programming",
+            "type": "grid",
+            "progress": "number",
+            "faIcon": "fa fa-code",
+            "locales": {
+                "en": {"title": "Programming"},
+                "es": {"title": "Programación"},
+                "pt": {"title": "Programação"}
+            }
+        },
+
+        {
+            "id": "languages",
+            "type": "list",
+            "progress": {"0": "beginner", "20": "rookie", "40": "intermediate", "60": "advanced", "80": "fluent", "100": "native"},
+            "faIcon": "fa fa-language",
+            "locales": {
+                "en": {"title": "Languages"},
+                "es": {"title": "Idiomas"},
+                "pt": {"title": "Idiomas"}
+            }
+        },
+
+        {
+            "id": "extra",
+            "type": "grid",
+            "progress": null,
+            "faIcon": "fa fa-marker",
+            "locales": {
+                "en": {"title": "Bonus Skills"},
+                "es": {"title": "Habilidades Adicionales"},
+                "pt": {"title": "Habilidades Adicionais"}
+            }
+        }
+    ],
+
+    "items": {
+        "abilities": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-server",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Backend Development",
+                        "description": "Creation and management of code structures that connect the internet to databases and manage user connections"
+                    },
+                    "es": {
+                        "title": "Desarrollo Backend",
+                        "description": "Creación y gestión de estructuras de código que conectan internet con bases de datos y gestionan las conexiones de los usuarios"
+                    },
+                    "pt": {
+                        "title": "Desenvolvimento Backend",
+                        "description": "Criação e gestão de estruturas de códigos que conectam a internet a bancos de dados e gerenciam as conexões dos usuários"
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-desktop",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Frontend Development",
+                        "description": "Creation of visual and interactive website interfaces, transforming design into code."
+                    },
+                    "es": {
+                        "title": "Desarrollo Frontend",
+                        "description": "Creación de la interfaz visual e interactiva de sitios web, transformando el diseño en código."
+                    },
+                    "pt": {
+                        "title": "Desenvolvimento Frontend",
+                        "description": "Criação da interface visual e interativa de sites, transformando design em códigos."
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-exchange-alt",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "REST/RESTful APIs",
+                        "description": "Development and consumption of APIs, ensuring efficient communication between client and server."
+                    },
+                    "es": {
+                        "title": "APIs REST/RESTful",
+                        "description": "Desarrollo y consumo de APIs, garantizando una comunicación eficiente entre cliente y servidor."
+                    },
+                    "pt": {
+                        "title": "APIs REST/RESTful",
+                        "description": "Desenvolvimento e consumo de APIs, garantindo comunicação eficiente entre cliente e servidor."
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-database",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Database",
+                        "description": "Modeling, SQL queries, and use of ORMs with MySQL, PostgreSQL, and TypeORM."
+                    },
+                    "es": {
+                        "title": "Base de Datos",
+                        "description": "Modelado, consultas SQL y uso de ORMs con MySQL, PostgreSQL y TypeORM."                   
+                    },
+                    "pt": {
+                        "title": "Banco de Dados",
+                        "description": "Modelagem, consultas SQL e uso de ORMs com MySQL, PostgreSQL e TypeORM."
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-project-diagram",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Object-Oriented Analysis and Design",
+                        "description": "System design and application of object-oriented principles."
+                    },
+                    "es": {
+                        "title": "Análisis y Diseño Orientado a Objetos",
+                        "description": "Diseño de sistemas y aplicación de principios de orientación a objetos."
+                    },
+                    "pt": {
+                        "title": "Análise e Projeto Orientado a Objetos",
+                        "description": "Design de sistemas e aplicação de princípios de orientação a objetos"
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-cubes",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Clean Architecture",
+                        "description": "Application of Clean Architecture concepts to create modular and easily maintainable systems."
+                    },
+                    "es": {
+                        "title": "Arquitectura Limpia",
+                        "description": "Aplicación de conceptos de Clean Architecture para crear sistemas modulares y de fácil mantenimiento."
+                    },
+                    "pt": {
+                        "title": "Arquitetura Limpa",
+                        "description": "Aplicação de conceitos de Clean Architecture para criar sistemas modulares e de fácil manutenção."
+                    }
+                }
+            }
+        ],
+
+        "programming": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-js-square",
+                "value": 80,
+                "locales": {
+                    "en": {"title": "Javascript", "description": "Experience Time: 2 years"},
+                    "es": {"title": "Javascript", "description": "Experiencia: 2 años"},
+                    "pt": {"title": "Javascript", "description": "Experiência : 2 anos"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-js",
+                "value": 65,
+                "locales": {
+                    "en": {"title": "Typescript", "description": "Experience Time: 1 year"},
+                    "es": {"title": "Typescript", "description": "Experiencia: 1 año"},
+                    "pt": {"title": "Typescript", "description": "Experiência : 1 ano"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-node-js",
+                "value": 75,
+                "locales": {
+                    "en": {"title": "Node.js", "description": "Experience Time: 2 years"},
+                    "es": {"title": "Node.js", "description": "Experiencia: 2 años"},
+                    "pt": {"title": "Node.js", "description": "Experiência : 2 anos"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-vuejs",
+                "value": 80,
+                "locales": {
+                    "en": {"title": "Vue 3", "description": "Experience Time: 1 year"},
+                    "es": {"title": "Vue 3", "description": "Experiencia: 1 año"},
+                    "pt": {"title": "Vue 3", "description": "Experiência : 1 ano"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-react",
+                "value": 55,
+                "locales": {
+                    "en": {"title": "React", "description": "Learning"},
+                    "es": {"title": "React", "description": "Aprendiendo"},
+                    "pt": {"title": "React", "description": "Aprendendo"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-java",
+                "value": 50,
+                "locales": {
+                    "en": {"title": "Java/Spring", "description": "Learning"},
+                    "es": {"title": "Java/Spring", "description": "Aprendiendo"},
+                    "pt": {"title": "Java/Spring", "description": "Aprendendo"}
+                }
+            }
+        ],
+
+        "languages": [
+            {
+                "imageIconUrl": "images/flags/pt.png",
+                "faIcon": null,
+                "value": 100,
+                "locales": {
+                    "en": {"title": "Brazilian Portuguese", "description": "Native speaker with excellent communication and writing skills."},
+                    "es": {"title": "Portugués Brasileño", "description": "Hablante nativo con excelentes habilidades de comunicación y escritura."},
+                    "pt": {"title": "Português Brasileiro", "description": "Falante nativo com excelentes habilidades de comunicação e escrita."}
+                }
+            },
+            {
+                "imageIconUrl": "images/flags/en.png",
+                "faIcon": null,
+                "value": 65,
+                "locales": {
+                    "en": {"title": "English", "description": "Basic oral comprehension, good reading comprehension; in the process of learning and improvement."},
+                    "es": {"title": "Inglés", "description": "Comprensión oral básica, buena comprensión de lectura; en proceso de aprendizaje y perfeccionamiento."},
+                    "pt": {"title": "Inglês", "description": "Compreensão oral básica, boa compreensão de leitura; em processo de aprendizagem e aperfeiçoamento."}
+                }
+            },
+
+            {
+                "imageIconUrl": "images/flags/es.png",
+                "faIcon": null,
+                "value": 40,
+                "locales": {
+                    "en": {"title": "Spanish", "description": "Basic oral comprehension, good reading comprehension; in the process of learning and improvement."},
+                    "es": {"title": "Español", "description": "Comprensión oral básica, buena comprensión de lectura; en proceso de aprendizaje y perfeccionamiento."},
+                    "pt": {"title": "Espanhol", "description": "Compreensão oral básica, boa compreensão de leitura; em processo de aprendizagem e aperfeiçoamento."}
+                }
+            }
+        ],
+
+        "extra": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-clipboard-list",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Requirements Engineering", "description": "Analysis and refinement of requirements, ensuring that the software solution is developed accurately, meeting real user needs and aligned with business objectives."},
+                    "es": {"title": "Ingeniería de Requisitos", "description": "Análisis y refinamiento de requisitos, asegurando que la solución de software se desarrolle con precisión, satisfaciendo las necesidades reales de los usuarios y alineada con los objetivos del negocio."},
+                    "pt": {"title": "Engenharia de requisitos", "description": "Análise e refinamento de requisitos, garantindo que a solução de software seja desenvolvida com precisão, atendendo às necessidades reais dos usuários e alinhada com os objetivos do negócio."}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-headset",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Technical Support", "description": "Technical assistance to users with the aim of solving problems."},
+                    "es": {"title": "Soporte Técnico", "description": "Asistencia técnica al usuario con el fin de solucionar problemas."},
+                    "pt": {"title": "Suporte Técnico", "description": "Assistência técnica ao usuário com o fim de solucionar problemas."}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-user-check",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Usability", "description": "Analysis of the ease with which a user can interact with a system, that is, the quality of interaction between the user and the software."},
+                    "es": {"title": "Usabilidad", "description": "Análisis de la facilidad con la que un usuario puede interactuar con un sistema, es decir, la calidad de la interacción entre el usuario y el software."},
+                    "pt": {"title": "Usabilidade", "description": "Análise da facilidade com que um usuário pode interagir com um sistema, ou seja, a qualidade da interação entre o usuário e o software."}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-tasks",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Project Management", "description": "Practices that aim to ensure that the software (system or product) is delivered to the client within the pre-defined deadline and is in accordance with the requirements defined by the client."},
+                    "es": {"title": "Gestión de Proyectos", "description": "Prácticas que tienen como objetivo asegurar que el (sistema o producto de) software sea entregado al cliente en el plazo predefinido y esté de acuerdo con los requisitos definidos por el cliente."},
+                    "pt": {"title": "Gestão de Projetos", "description": "Práticas que visam assegurar que o (sistema ou produto de) software seja entregue ao cliente no prazo pré-definido e esteja de acordo com os requisitos definidos pelo cliente."}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-file-alt",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Technical Documentation", "description": "Ability to create and maintain any form of informational support for software."},
+                    "es": {"title": "Documentación Técnica", "description": "Capacidad de crear y mantener cualquier forma de soporte informativo para un software."},
+                    "pt": {"title": "Documentação Técnica", "description": "Capacidade de criar e manter qualquer forma de suporte informacional para um software."}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-book-reader",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Continuous Learning", "description": "Ability to constantly learn and adapt to new knowledge"},
+                    "es": {"title": "Aprendizaje Continuo", "description": "Capacidad de aprender constantemente y adaptarse a nuevos conocimientos"},
+                    "pt": {"title": "Aprendizado Contínuo", "description": "Capacidade de aprender constantemente e se adaptar a novos conhecimentos"}
+                }
+            }
+        ]
+
+    }
+}

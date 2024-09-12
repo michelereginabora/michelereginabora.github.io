@@ -1,0 +1,201 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Hobbies</span> & Interests",
+            "description": "This is pretty much how I spend my free time:"
+        },
+        "es": {
+            "title": "<span class='text-primary'>Pasatiempos</span> e Intereses",
+            "description": "Así es más o menos cómo paso mi tiempo libre:"
+        },
+        "pt": {
+            "title": "<span class='text-primary'>Passatempos</span> e Interesses",
+            "description": "Um pouco sobre como passo meu tempo livre:"
+        }
+    },
+
+    "subcategories": [
+        {
+            "id": "activities",
+            "type": "pie",
+            "progress": "number",
+            "faIcon": "fa-solid fa-clock",
+            "locales": {
+                "en": {"title": null}
+            }
+        },
+
+        {
+            "id": "interests",
+            "type": "list",
+            "progress": null,
+            "faIcon": "fa fa-book-open-reader",
+            "locales": {
+                "en": {"title": "Interests"},
+                "es": {"title": "Intereses"},
+                "pt": {"title": "Interesses"}
+            }
+        }
+    ],
+
+    "items": {
+        "activities": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-users",
+                "value": 15,
+                "locales": {
+                    "en": {"title": "Family & Friends & Pets", "description": "Time spent with cherished loved ones."},
+                    "es": {"title": "Familia, amigos y pets", "description": "Tiempo con seres queridos apreciados."},
+                    "pt": {"title": "Família, amigos e pets", "description": "Tempo que passo com os entes queridos."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-tasks",
+                "value": 26,
+                "locales": {
+                    "en": {"title": "My Projects", "description": "Pursuing my creative endeavors."},
+                    "es": {"title": "Mis Proyectos", "description": "Persiguiendo mis proyectos."},
+                    "pt": {"title": "Meus Projetos", "description": "Construindo meus projetos."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-couch",
+                "value": 11,
+                "locales": {
+                    "en": {"title": "Relaxing", "description": "Indulging in tranquility, unwinding the stresses of life."},
+                    "es": {"title": "Relajación", "description": "Disfrutando de la tranquilidad, deshaciendo el estrés de la vida."},
+                    "pt": {"title": "Descanso", "description": "Aproveitando a tranquilidade, livrando-se do estresse da vida."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-book",
+                "value": 9,
+                "locales": {
+                    "en": {"title": "Studying", "description": "Embarking on a continuous journey of learning."},
+                    "es": {"title": "Estudio", "description": "Embarcando en un viaje continuo de aprendizaje."},
+                    "pt": {"title": "Estudo", "description": "Embarcando em uma jornada contínua de aprendizado."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-dumbbell",
+                "value": 15,
+                "locales": {
+                    "en": {"title": "Exercise", "description": "Dedicating time to physical well-being."},
+                    "es": {"title": "Ejercicio", "description": "Dedicando tiempo al bienestar físico."},
+                    "pt": {"title": "Exercícios", "description": "Dedicando tempo ao bem-estar físico."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-utensils",
+                "value": 12,
+                "locales": {
+                    "en": {"title": "Cooking", "description": "Creating culinary masterpieces."},
+                    "es": {"title": "Cocina", "description": "Creando obras maestras culinarias."},
+                    "pt": {"title": "Cozinha", "description": "Criando obras-primas culinárias."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-map",
+                "value": 12,
+                "locales": {
+                    "en": {"title": "Exploration/Travel/Readings", "description": "Venturing into new realms, seeking the thrill of uncharted discoveries."},
+                    "es": {"title": "Exploración/Viajes/Lecturas", "description": "Adentrándome en nuevos mundos, buscando la emoción de descubrimientos inexplorados."},
+                    "pt": {"title": "Exploração/Viagens/Leituras", "description": "Entrando em novos mundos, buscando a emoção de descobertas inexploradas."}
+                }
+            }
+        ],
+
+        "interests": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-universal-access",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "User Accessibility",
+                        "description": "Studying how websites and portals can be designed so that all people can perceive, understand, navigate, and interact effectively with pages and applications."
+                    },
+                    "es": {
+                        "title": "Accesibilidad de Usuario",
+                        "description": "Estudiar cómo los sitios web y portales pueden ser diseñados para que todas las personas puedan percibir, entender, navegar e interactuar de manera efectiva con las páginas y aplicaciones."
+                    },
+                    "pt": {
+                        "title": "Acessibilidade de Usuário",
+                        "description": "Estudar como sites e portais podem ser projetados de modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira efetiva com as páginas e aplicativos."
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-hands-helping",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Social Technology", "description": "Developing technological tools to contribute to social causes."},
+                    "es": {"title": "Tecnología Social", "description": "Desarrollar herramientas tecnológicas para contribuir a causas sociales."},
+                    "pt": {"title": "Tecnologia social", "description": "Desenvolver ferramentas tecnológicas para contribuir com causas sociais."}
+                }
+            },
+
+            
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-brain",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Artificial Intelligence", "description": "Studying technologies that allow computers and digital devices to learn, read, write, create, and analyze."},
+                    "es": {"title": "Inteligencia Artificial", "description": "Estudiar las tecnologías que permiten que las computadoras y dispositivos digitales aprendan, lean, escriban, creen y analicen."},
+                    "pt": {"title": "Inteligência artificial", "description": "Estudar as tecnologias que permitem que computadores e dispositivos digitais aprendam, leiam, escrevam, criem e analisem."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-flask",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Sciences", "description": "Understanding the processes that follow a well-defined methodological step-by-step approach to build human knowledge, from which it is possible to expand, detail, and even refute verifiable data and other information."},
+                    "es": {"title": "Ciencias", "description": "Conocer los procesos que siguen un paso a paso metodológico bien definido para construir el conocimiento humano, a partir del cual es posible ampliar, detallar e incluso refutar datos y otras informaciones verificables."},
+                    "pt": {"title": "Ciências", "description": "Conhecer os processos que seguem um passo a passo metodológico bem definido, para construir o conhecimento humano, a partir do qual é possível ampliar, detalhar e até refutar dados e outras informações verificáveis."}
+                }
+            },
+
+            
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-music",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Music", "description": "Appreciating the art of coordinating and transmitting harmonious and aesthetically valid sound effects, conveyed through voice or musical instruments."},
+                    "es": {"title": "Música", "description": "Apreciar el arte de coordinar y transmitir efectos sonoros, armoniosos y estéticamente válidos, transmitidos a través de la voz o de instrumentos musicales."},
+                    "pt": {"title": "Música", "description": "Apreciar a arte de coordenar e transmitir efeitos sonoros, harmoniosos e esteticamente válidos, transmitidas através da voz ou de instrumentos musicais."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-theater-masks",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Arts/Literature/Theater", "description": "Understanding human expressions and the ability to imitate nature and attribute meaning to one's existence."},
+                    "es": {"title": "Artes/Literatura/Teatro", "description": "Comprender las expresiones humanas y la capacidad de imitar la naturaleza y atribuir sentido a su existencia."},
+                    "pt": {"title": "Artes/Literatura/Teatro", "description": "Compreender as expressões e a capacidade humana de imitar a natureza e de atribuir sentido à sua existência."}
+                }
+            }
+        ]
+
+    }
+}

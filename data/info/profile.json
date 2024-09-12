@@ -1,0 +1,71 @@
+{
+    "name": "Michele Regina Bora",
+    "profilePictureUrl": "images/pictures/me.png",
+
+    "locales": {
+        "en": {
+            "credits": "Designed by <strong><a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "role": "Web Developer"
+        },
+
+        "es": {
+            "credits": "Diseño de <strong><a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "role": "Desenvolvedora Web"
+        },
+
+        "pt": {
+            "credits": "Design de <strong><a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "role": "Desenvolvedora Web"
+        }
+    },
+
+    "contact": {
+        "address": {
+            "id": "address",
+            "value": "Brasil, Guarapuava - PR",
+            "valueShort": "Guarapuava - PR",
+            "faIcon": "fa-solid fa-city",
+            "href": null
+        },
+
+        "email": {
+            "id": "email",
+            "value": "miregina@live.com",
+            "valueShort": "miregina@live.com",
+            "faIcon": "fa-solid fa-envelope",
+            "href": "mailto:miregina@live.com"
+        },
+
+        "github": {
+            "id": "github",
+            "value": "@michelereginabora",
+            "valueShort": "@michelereginabora",
+            "faIcon": "fa-brands fa-github",
+            "href": "https://github.com/michelereginabora"
+        },
+
+        "instagram": {
+            "id": "instagram",
+            "value": "@amicheleregina",
+            "valueShort": "@amicheleregina",
+            "faIcon": "fa-brands fa-instagram",
+            "href": "https://www.instagram.com/amicheleregina/"
+        },
+
+        "linkedin": {
+            "id": "linkedin",
+            "value": "@michele-regina-bora",
+            "valueShort": "@michele-regina-bora",
+            "faIcon": "fa-brands fa-linkedin",
+            "href": "https://www.linkedin.com/in/michele-regina-bora/"
+        },
+
+        "phone": {
+            "id": "phone",
+            "value": "+55 (42) 9 9989-2345",
+            "valueShort": " (42) 9 9989-2345",
+            "faIcon": "fa-solid fa-phone",
+            "href": null
+        }
+    }
+}

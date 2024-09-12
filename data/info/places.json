@@ -1,0 +1,91 @@
+{
+    "prefeitura": {
+        "logoUrl": "images/places/prefeitura.jpeg",
+        "faIcon": "fa-solid fa-city",
+        "locales": {
+            "en": {"name": "Prefeitura Municipal de Guarapuava"},
+            "es": {"name": "Prefeitura Municipal de Guarapuava"},
+            "pt": {"name": "Prefeitura Municipal de Guarapuava"}
+        }
+    },
+
+    "cidadesoft": {
+        "logoUrl": "images/places/cidadesoft.jpeg",
+        "faIcon": "fab fa-apple",
+        "locales": {
+            "en": {"name": "CidadeSoft"},
+            "es": {"name": "CidadeSoft"},
+            "pt": {"name": "CidadeSoft"}
+        }
+    },
+
+    "adatech": {
+        "logoUrl": null,
+        "faIcon": "fa fa-house-laptop",
+        "locales": {
+            "en": {"name": "Ada Tech"},
+            "es": {"name": "Ada Tech"},
+            "pt": {"name": "Ada Tech"}
+        }
+    },
+
+    "proz": {
+        "logoUrl": null,
+        "faIcon": "fa fa-house-laptop",
+        "locales": {
+            "en": {"name": "Proz"},
+            "es": {"name": "Proz"},
+            "pt": {"name": "Proz"}
+        }
+    },
+
+    "descomplica": {
+        "logoUrl": null,
+        "faIcon": "fas fa-university",
+        "locales": {
+            "en": {"name": "Descomplica Faculdade Digital"},
+            "es": {"name": "Descomplica Faculdade Digital"},
+            "pt": {"name": "Descomplica Faculdade Digital"}
+        }
+    },
+
+    "saoluis": {
+        "logoUrl": "images/places/facsaoluisjab.jpeg",
+        "faIcon": "fas fa-university",
+        "locales": {
+            "en": {"name": "Faculdade São Luis"},
+            "es": {"name": "Faculdade São Luis"},
+            "pt": {"name": "Faculdade São Luis"}
+        }
+    },
+
+    "unicesumar": {
+        "logoUrl": "images/places/unicesumar.jpeg",
+        "faIcon": "fas fa-university",
+        "locales": {
+            "en": {"name": "UNICESUMAR"},
+            "es": {"name": "UNICESUMAR"},
+            "pt": {"name": "UNICESUMAR"}
+        }
+    },
+
+    "unicentro": {
+        "logoUrl": "images/places/unicentro.png",
+        "faIcon": "fas fa-university",
+        "locales": {
+            "en": {"name": "Universidade Estadual do Centro-Oeste"},
+            "es": {"name": "Universidade Estadual do Centro-Oeste"},
+            "pt": {"name": "Universidade Estadual do Centro-Oeste"}
+        }
+    },
+
+    "boxti": {
+        "logoUrl": "images/places/boxti.png",
+        "faIcon": "fa-solid fa-building",
+        "locales": {
+            "en": {"name": "Box TI"},
+            "es": {"name": "Box TI"},
+            "pt": {"name": "Box TI"}
+        }
+    }
+}

@@ -1,0 +1,167 @@
+{
+    "locales": {
+        "en": {
+            "title": "My <span class='text-primary'>Portfolio</span>",
+            "description": "Explore a selection of my recent projects."
+        },
+        "es": {
+            "title": "Mi <span class='text-primary'>Portafolio</span>",
+            "description": "Explora una selección de mis proyectos recientes."
+        },
+        "pt": {
+            "title": "Meu <span class='text-primary'>Portfólio</span>",
+            "description": "Explore uma seleção dos meus projetos recentes."
+        }
+    },
+
+    "subcategories": [
+        {
+            "id": "frontend",
+            "locales": {
+                "en": {"title": "Front-end"},
+                "es": {"title": "Front-end"},
+                "pt": {"title": "Front-end"}
+            }
+        },
+        {
+            "id": "Backend",
+            "locales": {
+                "en": {"title": "Back-end"},
+                "es": {"title": "Back-end"},
+                "pt": {"title": "Back-end"}
+            }
+        },
+        {
+            "id": "professional",
+            "locales": {
+                "en": {"title": "Professional Projects"},
+                "es": {"title": "Proyectos Profesionales"},
+                "pt": {"title": "Projetos Profissionais"}
+            }
+        }
+    ],
+
+    "items": {
+        "frontend": [
+            {
+                "id": "authvue",
+                "title": "Auth Vue PWA",
+                "logoUrl": "images/portfolio/vuejs.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-github", "href": "https://github.com/michelereginabora/auth-vue-pwa", "id": "Github"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>Auth Vue PWA</b> is a Vue.js project using Vite as a bundler, with JSX support, Vue Router for navigation, Pinia for state management, and Progressive Web App (PWA) features. The AuthVue project's initial goal is to develop a login screen. This is the starting point that can evolve into a broader project in the future, encompassing additional functionalities and interface components for a larger application.",
+                        "tags": ["Vite", "JSX", "Pinia", "PWA", "i18n"]
+                    },
+                    "es": {
+                        "description": "<b>Auth Vue PWA</b> es un proyecto Vue.js que utiliza Vite como bundler, con soporte para JSX, Vue Router para navegación, Pinia para gestión de estado y características de Progressive Web App (PWA). El objetivo inicial del proyecto AuthVue es desarrollar una pantalla de inicio de sesión. Este es el punto de partida que puede evolucionar a un proyecto más amplio en el futuro, abarcando funcionalidades adicionales y componentes de interfaz para una aplicación más grande.",
+                        "tags": ["Vite", "JSX", "Pinia", "PWA", "i18n"]
+                    },
+                    "pt": {
+                        "description": "<b>Auth Vue PWA</b> É um projeto Vue.js usando Vite como bundler, suporte a JSX, Vue Router para navegação, Pinia para gerenciamento de estado, e recursos de Progressive Web App (PWA). O projeto AuthVue tem como objetivo inicial desenvolver uma tela de login. Este é o ponto de partida que pode evoluir para um projeto mais amplo no futuro, abrangendo funcionalidades adicionais e componentes de interface para uma aplicação maior.",
+                        "tags": ["Vite", "JSX", "Pinia", "PWA", "i18n"]
+                    }
+                }
+            },
+
+            {
+                "id": "adotenaweb",
+                "title": "Adote na Web Frontend",
+                "logoUrl": "images/portfolio/adotenaweb.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-github", "href": "https://github.com/michelereginabora/adote-na-web-frontend", "id": "Github"},
+                    {"faIcon": "fa-solid fa-globe", "href": "https://michelereginabora.github.io/adote-na-web-frontend/", "id": "Website"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>Adote na Web</b> (Adopt on the Web) is a project that connects animal protectors, NGOs, and adopters to promote responsible animal adoption. It's an open-source project using React, Tailwind CSS, and TypeScript, with Clean Architecture. Our purpose is to create a safe and intuitive environment, allowing users to easily find their new four-legged friends. This project is open source, and we value community collaboration to continuously improve and expand the platform.",
+                        "tags": ["ReactJS", "Tailwind CSS", "TypeScript", "Vite", "PWA", "Clean Architecture", "Open Source"]
+                    },
+                    "es": {
+                        "description": "<b>Adote na Web</b> (Adopta en la Web) es un proyecto que conecta a protectores de animales, ONG y adoptantes para promover la adopción responsable de animales. Es un proyecto de código abierto que utiliza React, Tailwind CSS y TypeScript, con Arquitectura Limpia. Nuestro propósito es crear un ambiente seguro e intuitivo, permitiendo que los usuarios encuentren fácilmente a sus nuevos amigos de cuatro patas. Este proyecto es de código abierto y valoramos la colaboración de la comunidad para mejorar y expandir continuamente la plataforma.",
+                        "tags": ["ReactJS", "Tailwind CSS", "TypeScript", "Vite", "PWA", "Arquitectura Limpia", "Código Abierto"]
+                    },
+                    "pt": {
+                        "description": "<b>Adote na Web</b> é um projeto que conecta protetores, ONGs e adotantes para promover a adoção responsável de animais. É um projeto open-source que usa React, Tailwind CSS e TypeScript, com arquitetura Clean. Nosso propósito é criar um ambiente seguro e intuitivo, permitindo que os usuários encontrem facilmente seus novos amigos de quatro patas. Este projeto é open source e valorizamos a colaboração da comunidade para aprimorar e expandir continuamente a plataforma.",
+                        "tags": ["ReactJS", "Tailwind CSS", "TypeScript", "Vite", "PWA", "Arquitetura Limpa", "Open Source"]
+                    }
+                }
+            }
+        ],
+
+        "Backend": [
+
+            {
+                "id": "adotenawebback",
+                "title": "Adote na Web Backend",
+                "logoUrl": "images/portfolio/adotenawebbackend.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-github", "href": "https://github.com/michelereginabora/adote-na-web-backend", "id": "Github"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>Adote na Web Backend</b> is the infrastructure behind the animal adoption platform. Developed with Java Spring, this open-source backend implements a clean architecture to ensure scalability and maintainability. It uses Spring Boot for quick configuration, Spring Data JPA for efficient persistence, and Spring Security for secure authentication. The system manages connections between protectors, NGOs, and adopters, processing data on animals, users, and adoptions. Well-documented RESTful APIs facilitate integration with the React frontend.",
+                        "tags": ["Java", "Spring Boot", "JPA", "RESTful API", "Clean Architecture", "Open Source"]
+                    },
+                    "es": {
+                        "description": "<b>Adote na Web Backend</b> es la infraestructura detrás de la plataforma de adopción de animales. Desarrollado con Java Spring, este backend de código abierto implementa una arquitectura limpia para garantizar escalabilidad y mantenibilidad. Utiliza Spring Boot para una configuración rápida, Spring Data JPA para una persistencia eficiente y Spring Security para una autenticación segura. El sistema gestiona las conexiones entre protectores, ONG y adoptantes, procesando datos de animales, usuarios y adopciones. Las APIs RESTful bien documentadas facilitan la integración con el frontend de React.",
+                        "tags": ["Java", "Spring Boot", "JPA", "API RESTful", "Arquitectura Limpia", "Código Abierto"]
+                    },
+                    "pt": {
+                        "description": "<b>Adote na Web Backend</b> é a infraestrutura por trás da plataforma de adoção de animais. Desenvolvido com Java Spring, este backend open-source implementa uma arquitetura limpa para garantir escalabilidade e manutenibilidade. Utiliza Spring Boot para configuração rápida, Spring Data JPA para persistência eficiente, e Spring Security para autenticação segura. O sistema gerencia as conexões entre protetores, ONGs e adotantes, processando dados de animais, usuários e adoções. APIs RESTful bem documentadas facilitam a integração com o frontend React.",
+                        "tags":  ["Java", "Spring Boot", "JPA", "RESTful API", "Clean Architecture", "Open Source"]
+                    }
+                }
+            },
+            {
+                "id": "empreendher",
+                "title": "EmpreendHer",
+                "logoUrl": "images/portfolio/hackher.webp",
+                "links": [
+                    {"faIcon": "fa-brands fa-github", "href": "https://github.com/michelereginabora/backend-empreendHer", "id": "Github"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>EmpreendHer</b> is an entrepreneurship platform aimed at stimulating female entrepreneurship through the dissemination of services and job opportunities in the technology field. It was conceived at HackingRio 2024, a hackathon exclusive for women. This project implements the backend using Node.js for the runtime environment, Express as the web framework, TypeORM for object-relational mapping with PostgreSQL as the database, and dependency injection to manage components and services.",
+                        "tags": ["Node.js", "ExpressJS", "TypeORM", "PostgreSQL", "Dependency Injection", "Clean Architecture"]
+                    },
+                    "es": {
+                        "description": "<b>EmpreendHer</b> es una plataforma de emprendimiento que tiene como objetivo estimular el emprendimiento femenino a través de la divulgación de servicios y oportunidades de trabajo en el área de tecnología. Fue concebido en HackingRio 2024, un hackathon exclusivo para mujeres. Este proyecto implementa el backend utilizando Node.js para el entorno de ejecución, Express como framework web, TypeORM para el mapeo objeto-relacional con PostgreSQL como base de datos e inyección de dependencias para gestionar componentes y servicios.",
+                        "tags": ["Node.js", "ExpressJS", "TypeORM", "PostgreSQL", "Inyección de Dependencias", "Arquitectura Limpia"]
+                    },
+                    "pt": {
+                        "description": "<b>EmpreendHer</b> é uma plataforma de empreededorismo que tem o objetivo de estimular o empreendedorismo feminino através da divulgação de serviços e vagas na área de tecnologia. Foi idealizado no HackingRio 2024, Hackathon exclusivo para mulheres. Este projeto implementa o backend utilizando Node.js para o ambiente de execução, Express como framework web, TypeORM para mapeamento objeto-relacional com PostgreSQL como banco de dados e injeção de dependência para gerenciar componentes e serviços.",
+                        "tags": ["Node.js", "ExpressJS", "TypeORM", "PostgreSQL", "Injecão de Dependência", "Arquitetura Limpa"]
+                    }
+                }
+            }
+        ],
+
+        "professional": [
+            {
+                "id": "tickerpress",
+                "title": "Ticker.press - Box TI",
+                "logoUrl": "images/portfolio/tickerpress.png",
+                "links": [
+                    {"faIcon": "fa-solid fa-globe", "href": "https://ticker.press", "id": "Website"}
+                    ],
+                "locales": {
+                    "en": {
+                        "description": "<b>Ticker.Press</b> is an innovative web platform for press content management and distribution. The system offers storage and search for press releases, photos, and videos, email sending to mailing lists, and customizable websites for companies and journalists. It incorporates AI for sentiment analysis and suggestion of headlines and hashtags, improving content quality. Designed to be scalable, secure, and easy to use, Ticker.Press aims to become a specialized social network for media professionals, with future plans to include approval flows, version control, and a portal for press agency clients.",
+                        "tags": ["Vue.js", "TypeScript", "Azure", "Clean Architecture"]
+                    },
+                    "es": {
+                        "description": "<b>Ticker.Press</b> es una plataforma web innovadora para la gestión y distribución de contenido de prensa. El sistema ofrece almacenamiento y búsqueda de comunicados de prensa, fotos y vídeos, envío de correos electrónicos a listas de distribución y sitios web personalizables para empresas y periodistas. Incorpora IA para el análisis de sentimientos y la sugerencia de titulares y hashtags, mejorando la calidad del contenido. Diseñado para ser escalable, seguro y fácil de usar, Ticker.Press aspira a convertirse en una red social especializada para profesionales de los medios, con planes futuros de incluir flujos de aprobación, control de versiones y un portal para clientes de agencias de prensa.",
+                        "tags": ["Vue.js", "TypeScript", "Azure", "Arquitectura Limpia"]
+                    },
+                    "pt": {
+                        "description": "<b>Ticker.Press</b> é uma plataforma web inovadora para gestão e distribuição de conteúdo de imprensa. O sistema oferece armazenamento e busca de releases, fotos e vídeos, envio de e-mails para mailing lists, e sites personalizáveis para empresas e jornalistas. Incorpora IA para análise de sentimento e sugestão de manchetes e hashtags, melhorando a qualidade do conteúdo. Projetado para ser escalável, seguro e fácil de usar, o Ticker.Press visa se tornar uma rede social especializada para profissionais de mídia, com planos futuros de incluir fluxos de aprovação, controle de versões e um portal para clientes de assessorias de imprensa.",
+                        "tags": ["Vue.js", "TypeScript", "Node.js", "Azure", "TypeORM", "PostgreSQL", "Arquitetura Limpa"]
+                    }
+                }
+            }
+        ]
+    }
+}

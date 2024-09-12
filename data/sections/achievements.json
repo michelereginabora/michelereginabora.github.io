@@ -1,0 +1,136 @@
+{
+    "locales": {
+        "en": {
+            "title": "Career <span class='text-primary'>Achievements</span>",
+            "description": "My journey as a web developer has been marked by a curious dedication to learning and skill enhancement. As a result, I have compiled a list of valuable deliveries and certifications:"
+        },
+
+        "es": {
+            "title": "Logros <span class='text-primary'>Profesionales</span>",
+            "description": "Mi trayectoria como desarrolladora web ha estado marcada por una dedicación curiosa al aprendizaje y al perfeccionamiento de habilidades. Como resultado, he compilado una lista de entregas de valor y certificaciones valiosas:"
+        },
+
+        "pt": {
+            "title": "Realizações <span class='text-primary'>Profissionais</span>",
+            "description": "Minha trajetória como desenvolvedora web foi marcada por uma dedicação curiosa ao aprendizado e ao aprimoramento de habilidades. Como resultado, compilei uma lista de entrega de valor e certificações valiosas:"
+        }
+    },
+
+    "subcategories": [
+
+        {
+            "id": "deliveries",
+            "faIcon": "fa-solid fa-check-circle",
+            "locales": {
+                "en": {"title": "Deliveries", "buttonLabel": "More Info"},
+                "es": {"title": "Entregas", "buttonLabel": "Más Información"},
+                "pt": {"title": "Entregas", "buttonLabel": "Mais informações"}
+            }
+        },
+        
+
+        {
+            "id": "certifications",
+            "faIcon": "fa-solid fa-award",
+            "locales": {
+                "en": {"title": "Certifications", "buttonLabel": "View Certification"},
+                "es": {"title": "Certificaciones", "buttonLabel": "Ver Certificación"},
+                "pt": {"title": "Certificações", "buttonLabel": "Ver Certificado"}
+            }
+        }
+    ],
+
+    "items": {
+        "deliveries": [
+            {
+                "id": "tickerpress_project",
+                "place": "@link{places.boxti}",
+                "date": "now",
+                "href": "https://ticker.press/",
+                "locales": {
+                    "en": {
+                        "title": "Ticker.Press Project",
+                        "description": "Served as Product Owner and developer for this key company project, leading its development and implementation while ensuring alignment with business goals and user needs."
+                    },
+                    "es": {
+                        "title": "Proyecto Ticker.Press",
+                        "description": "Actuó como Product Owner y desarrolladora en este proyecto clave de la empresa, liderando su desarrollo e implementación mientras aseguraba la alineación con los objetivos del negocio y las necesidades de los usuarios."
+                    },
+                    "pt": {
+                        "title": "Projeto Ticker.Press",
+                        "description": "Atuação como Product Owner e desenvolvedora neste projeto da empresa, liderando seu desenvolvimento e implementação enquanto garante o alinhamento com os objetivos do negócio e as necessidades dos usuários."
+                        }
+                    }
+            }
+        ],
+
+        "certifications": [
+            {
+                "id": "front_cert",
+                "place": "@link{places.descomplica}",
+                "date": "2023/01",
+                "href": "https://drive.google.com/file/d/1h_XctcuS7MfIkGaFDl05QL8-Uym5MVvR/view",
+                "locales": {
+                    "en": {
+                        "title": "FrontEnd Development",
+                        "description": "Intensive 220-hour course focused on UI/UX and frontend development. Covers interface design, user experience, HTML5, CSS, JavaScript, Bootstrap, data structures, and version control with Git and GitHub. Emphasizes problem analysis and modern web development practices."
+                    },
+
+                    "es": {
+                        "title": "FrontEnd Development",
+                        "description": "Curso intensivo de 220 horas enfocado en UI/UX y desarrollo frontend. Abarca diseño de interfaces, experiencia de usuario, HTML5, CSS, JavaScript, Bootstrap, estructuras de datos y control de versiones con Git y GitHub. Enfatiza el análisis de problemas y las prácticas modernas de desarrollo web."
+                    },
+
+                    "pt": {
+                        "title": "FrontEnd Development",
+                        "description": "Curso intensivo de 220 horas focado em UI/UX e desenvolvimento front-end. Abrange design de interfaces, experiência do usuário, HTML5, CSS, JavaScript, Bootstrap, estruturas de dados, e controle de versão com Git e GitHub. Enfatiza análise de problemas e práticas modernas de desenvolvimento web."
+                    }
+                }
+            },
+
+            {
+                "id": "back_cert",
+                "place": "@link{places.adatech}",
+                "date": "2024/03",
+                "href": "https://ada.tech/certificado?code=55e931b6-10cf-44ec-b378-c9a30439cfa4",
+                "locales": {
+                    "en": {
+                        "title": "Backend and Data Analysis with Python",
+                        "description": "Comprehensive 324-hour course. Covers four main areas: programming logic, advanced programming techniques, databases, and data analysis. The course develops fundamental programming skills, data structures, database manipulation and querying, and data analysis and visualization techniques using Python."
+                    },
+                    "es": {
+                        "title": "Backend y Análisis de Datos con Python",
+                        "description": "Curso integral de 324 horas. Abarca cuatro áreas principales: lógica de programación, técnicas avanzadas de programación, bases de datos y análisis de datos. El curso desarrolla habilidades fundamentales de programación, estructuras de datos, manipulación y consulta de bases de datos, y técnicas de análisis y visualización de datos utilizando Python."
+                    },
+
+                    "pt": {
+                        "title": "Backend e análise de dados com Python",
+                        "description": "Curso abrangente de 324 horas. Aborda quatro áreas principais: lógica de programação, técnicas avançadas de programação, banco de dados e análise de dados. O curso desenvolve habilidades fundamentais de programação, estruturas de dados, manipulação e consulta de bancos de dados, e técnicas de análise e visualização de dados utilizando Python."
+                    }
+                }
+            },
+
+            {
+                "id": "front2_cert",
+                "place": "@link{places.proz}",
+                "date": "2024/08",
+                "href": "https://drive.google.com/file/d/1gZZlcFuA3dVi--M4QulBmlg7B5Zneq1G/view?usp=sharing",
+                "locales": {
+                    "en": {
+                        "title": "Frontend Extension Course",
+                        "description": "100-hour Extension Course focused on Frontend development with REST API integration. Covers modern technologies such as Node.js, TypeScript, and React.js for building dynamic interfaces. The course emphasizes creating robust and scalable web applications, exploring efficient communication between frontend and backend through RESTful APIs. Develops practical skills in application architecture, state management, and web development best practices."
+                    },
+                    "es": {
+                        "title": "Curso de Extensión Frontend",
+                        "description": "Curso de Extensión de 100 horas enfocado en el desarrollo Frontend con integración de API REST. Aborda tecnologías modernas como Node.js, TypeScript y React.js para la construcción de interfaces dinámicas. El curso enfatiza la creación de aplicaciones web robustas y escalables, explorando la comunicación eficiente entre frontend y backend a través de APIs RESTful. Desarrolla habilidades prácticas en arquitectura de aplicaciones, gestión de estado y buenas prácticas de desarrollo web."
+                    },
+
+                    "pt": {
+                        "title": "Curso de Extensão FrontEnd",
+                        "description": "Curso de Extensão de 100 horas focado no desenvolvimento FrontEnd com integração de API REST. Aborda tecnologias modernas como Node.js, TypeScript e React.js para construção de interfaces dinâmicas. O curso enfatiza a criação de aplicações web robustas e escaláveis, explorando a comunicação eficiente entre frontend e backend através de APIs RESTful. Desenvolve habilidades práticas em arquitetura de aplicações, gerenciamento de estado, e boas práticas de desenvolvimento web."
+                    }
+                }
+            }
+        ]
+    }
+}
