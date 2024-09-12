@@ -1,224 +1,208 @@
-# Michele Regina Bora - Personal Portfolio Website
+# [Vue Resume Template](https://ryanbalieiro.github.io/vue-resume-template/) by Ryan Balieiro
 
-This is the source code for Michele Regina Bora's personal portfolio website. The website showcases Michele's skills, projects, and contact information. It is designed to serve as an online resume and portfolio. 
+This theme has a simple and clean layout designed for creating user-friendly resumes or CV landing pages. It's built using Vue 3.0 (Composition API) and Bootstrap 5, presenting a cohesive one-page layout that blends functionality and aesthetics.
 
-_Feel free to utilize this template as a starting point to create your own website._
+Key features:
+- A handy fixed side navigation bar that lets you easily scroll through the different sections of your resume.
+- Six unique section layouts to showcase your work experience, education, skills, portfolio, and more.
+- An alternative navigation mode designed just for mobile screens.
+- Multi-language translation support included.
+- Using Vite for faster build times and better integration.
 
-</br> 
+## Status
 
-## Table of Contents
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-agency/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-agency.svg)](https://www.npmjs.com/package/startbootstrap-agency)
 
-- [Michele Regina Bora - Personal Portfolio Website](#michele-regina-bora---personal-portfolio-website)
-  - [Table of Contents](#table-of-contents)
-  - [Description](#description)
-  - [Features](#features)
-  - [Technologies Used](#technologies-used)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [JavaScript Code Documentation - Front-End](#javascript-code-documentation---front-end)
-      - [1. Page Loading Animation](#1-page-loading-animation)
-      - [2. Color Panel and Changer](#2-color-panel-and-changer)
-      - [3. Navigation](#3-navigation)
-      - [4. Text Rotation](#4-text-rotation)
-      - [5. Navigation Links](#5-navigation-links)
-      - [6. Cursor Animation](#6-cursor-animation)
-      - [7. Miscellaneous](#7-miscellaneous)
-    - [Usage:](#usage-1)
-    - [Note:](#note)
-  - [JavaScript Code Documentation - Back-End (Forms)](#javascript-code-documentation---back-end-forms)
-    - [Pre-requisites](#pre-requisites)
-    - [Installation](#installation-1)
-    - [Configuration](#configuration)
-    - [Local Server Configuration (IMPORTANT)](#local-server-configuration-important)
-    - [Running the Server](#running-the-server)
-  - [Usage](#usage-2)
-      - [Important Note for Production](#important-note-for-production)
-  - [License](#license)
 
+## Getting Started
 
-## Description
+1. Clone the repo:
+```
+git clone https://github.com/ryanbalieiro/vue-resume-template
+```
 
-This repository contains the HTML, CSS, and JavaScript code for Michele Regina Bora's personal portfolio website. The website includes sections such as Home, About Me, Portfolio, Online Magazine, and Contact.
+2. Go to the root directory of the project and install all dependencies with npm:
+```
+npm install
+```
 
-## Features
+3. Run the project in developer mode:
+```
+npm run dev
+```
 
-- Responsive design for various devices
-- Customizable color theme
-- Portfolio showcasing notable projects
-- Online magazine section for publications
-- Contact form for easy communication
+4. To temporarily deactivate the preload animation during theme adjustments, go to `public/data/settings.json` and modify the following field:
 
-## Technologies Used
+```
+ "preloaderEnabled": false
+```
 
-- HTML
-- CSS
-- JavaScript
-- GSAP (GreenSock Animation Platform) library for animations
-- Particle.js for particle effects
-- Node.js (used for the server-side handling of the contact form)
-- **Google Cloud Platform (GCP):**
-  - App Engine with Node.js for deploying the server handling form submissions.
+## Template Customization
 
+### 1. Changing the content
 
+All the app's content, like texts and images, is stored in the `public/` folder. Inside, you’ll find two key directories:
 
-## Installation
+- `public/data` ➔ This is where all the data JSON files are stored, containing the full content of the app.
+- `public/images`➔ Here, you’ll find the icons and photos that the app uses.
 
-1. Clone the repository:
+You can easily customize the app’s content by updating the data in these two folders to match your preferences.
 
-   ```bash
-   git clone https://github.com/Micheleregina2022/micheleregina2022.github.io/
-   ```
+### 2. Quickly customizing the colors
 
-2. Open the `index.html` file in a web browser.
+Adjusting the theme colors can be done quickly by editing the variables found in `src/scss/_variables.scss`. To illustrate, a variation of the theme featuring shades of green can be created by modifying the following variables:
 
+```scss
+$primary: #13a452; /** changing the 'primary' color to green **/
+$dark: #021307; /** changing the 'dark' color to a dark shade of green **/
+$background-color: #f8fff8; 
+```
 
-## Usage
 
-- Navigate through different sections using the navigation bar.
-- Explore the portfolio to view projects.
-- Check the online magazine section for the latest publications.
-- Use the contact form to get in touch with Michele.
+### 3. Adding and removing languages
 
+To add or remove languages, open `public/data/settings.json` and modify the `supportedLanguages` field as needed. Use the `default` property to specify the fallback language that should be used if the application doesn't support the user's preferred language.
 
-## Contributing
+```json
+{
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en.png",
+            "default": true
+        },
 
-If you'd like to contribute to this project, please follow these steps:
+        {
+            "name": "日本語",
+            "id": "ja",
+            "flagUrl": "images/flags/ja.png"
+        }
+    ]
+}
+```
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/new-feature`)
-3. Make changes and commit them (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature/new-feature`)
-5. Create a pull request
+The `public/images/flags/` folder already contains a collection of flags for commonly used languages. If you require a specific flag icon that isn't there, you can download it at no cost from this [source](https://www.flaticon.com/packs/countrys-flags).
 
-</br> 
+To deactivate support for multiple languages, keep only a single language within the array. This will automatically hide the language picker menu.
 
-## JavaScript Code Documentation - Front-End
+### 4. Adding, removing and reordering sections
 
-#### 1. Page Loading Animation
-   - The code uses GSAP to animate the loader element upon window load.
-   - It translates the loader element (`#loader`) upwards (`y: "-100%"`), fades it out (`opacity: 0`), and then sets its display to none (`display: "none"`).
+Inside the `public/data/sections.json` file, you will find two arrays: one for sections and the other for categories. Every section should be linked to a corresponding category. These categories are used in grouping sections within the mobile navigation.
 
-#### 2. Color Panel and Changer
-   - Clicking on an element with the class `color-panel` toggles the class `color-changer-active` on an element with the class `color-changer`.
-   - Clicking on a link within an element with the class `colors` appends a new stylesheet link to the head, changing the color theme based on the link's title.
+Adding, removing or reordering the portfolio sections and categories can be achieved by making modifications to these arrays as needed.
 
-#### 3. Navigation
-   - Clicking the element with the class `menubar` slides down the navigation content (`#navigation-content`) using GSAP.
-   - Clicking the element with the class `navigation-close` slides up the navigation content.
+For localizing the section and category titles, ensure that the `id` of each section and category has a corresponding translation in `public/data/strings.json`.
 
-#### 4. Text Rotation
-   - The code rotates text elements with the class `txt-rotate`.
-   - It initializes a `TxtRotate` class that animates text rotation with a typewriter effect.
+*public/data/strings.json*
+```json 
+{
+    "en": {
+        "section1_id": "Section 1 ID",
+        "section2_id": "Section 2 ID",
+        "section3_id": "Section 3 ID"
+    },
+    
+    "ja": {
+        "section1_id": "セクション1 ID",
+        "section2_id": "セクション2 ID",
+        "section3_id": "セクション3 ID"
+    }
+}
+```
 
-#### 5. Navigation Links
-   - Clicking on specific navigation links (`#about-link`, `#contact-link`, etc.) triggers animations to show or hide relevant sections.
+### 5. Customizing a section
 
-#### 6. Cursor Animation
-   - The cursor (`.cursor`) follows the mouse position with a slight delay, creating a smooth movement effect.
-   - Hovering over certain elements (`a`, `.menubar`, `.navigation-close`) changes the cursor's scale and opacity.
+Each section entry in `public/data/sections.json` comprises the following fields:
 
-#### 7. Miscellaneous
-   - The code contains various GSAP animations to control the display and visibility of different sections on the page.
+```json 
+{
+    "id": "experience",
+    "categoryId": "background",
+    "component": "TimelineSection",
+    "jsonPath": "data/sections/experience.json",
+    "faIcon": "fa-solid fa-briefcase"
+}
+```
 
-### Usage:
-   - The code assumes the existence of specific HTML elements and CSS classes (e.g., `#loader`, `.color-panel`, `.color-changer`, `#navigation-content`, `.txt-rotate`, etc.). Make sure these elements and classes are present in your HTML.
+- ***id*** ➔ A unique identifier for the section, also used as a key to fetch the section's name within `strings.json`
+- ***categoryId*** ➔ Specifies the category to which the section belongs (used for grouping sections in the mobile navigation).
+- ***component*** ➔ Indicates the Vue component responsible for rendering the section.
+- ***jsonPath*** ➔ A reference pointing to the JSON file containing the section's content.
+- ***faIcon*** ➔ The FontAwesome icon associated with the section.
 
-### Note:
-   - Ensure that GSAP and jQuery libraries are included in your project for the code to work correctly.
+To modify the content of a section, open and edit its respective JSON file. Keep in mind that each Vue component may require a specific JSON structure. For proper structuring of section JSON files, refer to the existing ones as a guide.
 
+### 6. Localizing fields
 
-</br> 
+To stay in line with the project's guidelines, put the translations for your static texts into the `public/data/strings.json` file. This file acts as a hub for all your global localization needs. For section and component-specific content, create a `locales` field to encapsulate the corresponding translations.
 
+Each localizable object adheres to the following structure:
 
-## JavaScript Code Documentation - Back-End (Forms)
+```
+{
+    "locales": {
+        "en": {
+            "hello": "Hello!",
+            "age: "Age"
+        },
+        
+        "es": {
+            "hello": "Hola!",
+            "age": "Edad"
+        },
+        
+        (...)
+    }
+}
+```
 
-This section contains the back-end code for handling form submissions in a JavaScript application. The back-end is built using Node.js, Express, and Nodemailer for sending emails.
+### 7. Making the sidebar shrinkable
 
-### Pre-requisites
+If you want to give users the option to shrink or expand the sidebar on larger screens, just head over to `public/data/settings.json` and set the `sidebarShrinkingEnabled` flag to true.
 
-Make sure you have Node.js installed on your machine. You can download it from [https://nodejs.org/](https://nodejs.org/).
+```
+ "sidebarShrinkingEnabled": true
+```
 
+Now, a handy toggle button will appear in the top left corner of the sidebar, letting the user switch between an expanded and compressed view.
 
-### Installation
+## Building for production
 
-1. Navigate to the `js` folder in the project directory:
+Open the `vite.config.js` file and set the base directory for your application. This setting defines the main path that your website will be hosted under.
 
-    ```bash
-    cd path/to/your/project/js
-    ```
+```js
+export default defineConfig({
+  base: '/',
+  plugins: [vue()],
+})
+```
 
-2. Install the required Node.js packages:
+If you're deploying to Netlify or your own custom domain where your website is located at the root, you can leave the `base` setting as `'/'`.
 
-    ```bash
-    npm install
-    ```
+To compile your project for production, execute:
 
-### Configuration
+```
+npm run build
+``` 
 
-1. Create a file named `.env` in the project root.
+This command triggers a series of processes that package your code, assets, and other necessary files, ultimately creating a production-ready version of your project. After running the command, you'll find the compiled files within the `dist` folder. This is the folder you should use for deploying your application to a live server or hosting platform.
 
-2. Open the `.env` file and add the following configuration:
+If you’re deploying to GitHub Pages, make sure to run this custom command after the build process:
 
-    ```env
-    EMAIL_USER=your-email@gmail.com
-    EMAIL_PASS=your-email-password
-    ```
+```
+npm run deploy
+```
 
-    Replace `your-email@gmail.com` with your Gmail email address and `your-email-password` with your Gmail application-specific password. Make sure to follow [Gmail's application-specific password guide](https://support.google.com/accounts/answer/185833?hl=en) to generate the password.
+This step serves as a solution to the problem discussed in detail at https://stackoverflow.com/questions/48521177/404-when-reloading-a-vue-website-published-to-github-pages. This command will create a `404.html` file as a copy of `index.html`, so when users access a secondary route (like `/education` or `/skills`), it will redirect them to the Vue App instead of GitHub's default 404 page.
 
-</br> 
+## About
 
-### Local Server Configuration (IMPORTANT)
+This template was created by and is maintained by **[Ryan Balieiro](https://ryanbalieiro.com/)**.
 
-If you are running the application locally, please ensure to update the form submission endpoint in the JavaScript code. Open the `index.html` file and locate the following line:
+It's based on the [Bootstrap](https://getbootstrap.com/) framework created by Mark Otto and Jacob Thorton; and the [Vue](https://vuejs.org/) framework created by Evan You.
 
-    ```html
-    <form id="myForm" action="https://starlit-gift-403714.rj.r.appspot.com/submit-form" method="post">
-    ```
+## Copyright and License
 
-
-Replace the action attribute with the local server endpoint if needed:
-
-    ```html
-    <form id="myForm" action="http://localhost:your-port/submit-form" method="post">
-    ```
-
-Make sure to replace your-port with the actual port number your local server is running on. Keep in mind that this change is necessary to connect the form submission to your locally hosted server.
-
-
-### Running the Server
-
-1. Start the Node.js server:
-
-    ```bash
-    node serve.js
-    ```
-
-    The server will run on `http://localhost:3000`.
-
-2.Your server is now ready to handle form submissions. The submit button on the form will send an email using the configured email credentials.
-
-</br>
-
-## Usage
-
-#### Important Note for Production
-
-**Please Note:** The current server configuration is suitable for local development. If you plan to deploy this website to a production environment, additional adjustments are necessary. For a production-ready setup, consult the documentation of your hosting provider and make the necessary modifications to enhance security and performance.
-
-**Production Environment:**
-For the live version of the website, the form submission is currently configured to use a cloud-based server. If you are hosting the website in production, ensure that the form submission endpoint in the `index.html` file points to the appropriate server.
-
-
-For more details, refer to the [Server Documentation](https://github.com/Micheleregina2022/micheleregina2022.github.io/blob/main/server-form/server-gcloud-app-engine.md)
-
-</br> 
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-</br> 
-
----
+Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE) license, providing complete freedom for utilization. Feel free to enhance and adapt it to suit your needs.

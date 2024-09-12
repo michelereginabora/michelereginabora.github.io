@@ -1,0 +1,27 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Contact</span> Me",
+            "description": "Please don't hesitate to get in touch with me whenever you feel the need!",
+            "subtitleDescription": "You can reach out to me through the following options:"
+        },
+        "es": {
+            "title": "<span class='text-primary'>Contáctame</span>",
+            "description": "¡Por favor, no dudes en ponerte en contacto conmigo siempre que lo necesites!",
+            "subtitleDescription": "Puedes ponerte en contacto conmigo a través de las siguientes opciones:"
+        },
+        "pt": {
+            "title": "<span class='text-primary'>Contate</span>-me",
+            "description": "Fique à vontade para entrar em contato comigo sempre que precisar!",
+            "subtitleDescription": "Você pode entrar em contato comigo usando as seguintes opções:"
+        }
+    },
+
+    "items": [
+        "@link{profile.contact.address}",
+        "@link{profile.contact.phone}",
+        "@link{profile.contact.email}",
+        "@link{profile.contact.linkedin}",
+        "@link{profile.contact.instagram}"
+    ]
+}

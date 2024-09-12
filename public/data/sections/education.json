@@ -1,0 +1,89 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Educational</span> Background",
+            "description": "A glimpse into my academic trajectory and accomplishments."
+        },
+
+        "es": {
+            "title": "Antecedentes <span class='text-primary'>Educativos</span>",
+            "description": "Un vistazo a mi trayectoria académica y logros."
+        },
+
+        "pt": {
+            "title": "Formação <span class='text-primary'>Acadêmica</span>",
+            "description": "Uma visão geral da minha trajetória acadêmica e conquistas."
+        }
+    },
+
+    "items": [
+        {
+            "id": "online_course_unicentro",
+            "place": "@link{places.unicentro}",
+            "period": ["2015/02", "2018/12"],
+
+            "locales": {
+                "en": {
+                    "title": "Bachelor's degree in Philosophy",
+                    "description": "It is characterized by critical reflection, aiming to understand the foundations of reality and the questions that constitute the body of philosophical thought throughout history. It is part of the formation of investigative experience, research, analysis, discussion, and the construction of autonomous thinking."
+                },
+
+                "es": {
+                    "title": "Licenciatura en Filosofía",
+                    "description": "Se caracteriza por la reflexión crítica, con el fin de comprender los fundamentos de la realidad y las cuestiones que constituyen el cuerpo del pensamiento filosófico a lo largo de toda la historia. Forma parte de la formación de la experiencia investigativa, la investigación, el análisis, la discusión y la construcción de un pensamiento autónomo."
+                },
+
+                "pt": {
+                    "title": "Licenciatura em Filosofia",
+                    "description": "Caracteriza-se pela reflexão crítica, a fim de compreender os fundamentos da realidade e das questões que constituem o corpo do pensamento filosófico ao longo de toda história. Faz parte da formação da experiência investigativa, a pesquisa, a análise, a discussão e a construção de um pensamento autônomo."
+                }
+            }
+        },
+
+        {
+            "id": "bachelor_saoluis",
+            "place": "@link{places.saoluis}",
+            "period": ["2019/03", "2020/02"],
+
+            "locales": {
+                "en": {
+                    "title": "Postgraduate certificate in Special Education with emphasis on Pervasive Developmental Disorders (PDD) and High Abilities",
+                    "description": "Aims to train professionals involved in inclusive education, providing them with theoretical and methodological foundations for working with technologies that support people with special educational needs."
+                },
+
+                "es": {
+                    "title": "Especialización en Educación Especial con énfasis en Trastornos Generalizados del Desarrollo (TGD) y Altas Capacidades",
+                    "description": "Tiene como objetivo capacitar a los profesionales involucrados en la educación inclusiva, proporcionándoles fundamentos teóricos y metodológicos para trabajar con las tecnologías que apoyan a las personas con necesidades educativas especiales."
+                },
+
+                "pt": {
+                    "title": "Especialização em Educação Especial com ênfase em Transtornos Globais de Desenvolvimento (TGD) e Altas Habilidades",
+                    "description": "Objetiva capacitar os profissionais envolvidos com a educação inclusiva, dando-lhes subsídios teóricos e metodológicos para o trabalho com as tecnologias que dão suporte às pessoas com necessidades educativas especiais."
+                }
+            }
+        },
+
+        {
+            "id": "masters_unicesumar",
+            "place": "@link{places.unicesumar}",
+            "period": ["2022/08", "2024/12"],
+
+            "locales": {
+                "en": {
+                    "title": "Associate Degree in Systems Analysis and Development",
+                    "description": "This is a field of study and practice that focuses on the creation, implementation, and maintenance of software systems."
+                },
+
+                "es": {
+                    "title": "Tecnólogo en Análisis y Desarrollo de Sistemas",
+                    "description": "Se trata de un campo de estudio y práctica que se centra en la creación, implementación y mantenimiento de sistemas de software."
+                },
+
+                "pt": {
+                    "title": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+                    "description": "Trata-se de um campo de estudo e prática que se concentra na criação, implementação e manutenção de sistemas de software."
+                }
+            }
+        }
+    ]
+}
