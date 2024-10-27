@@ -60,6 +60,14 @@
             "href": "https://www.linkedin.com/in/michele-regina-bora/"
         },
 
+        "lattes": {
+            "id": "lattes",
+            "value": "@michele-regina-bora",
+            "valueShort": "@michele-regina-bora",
+            "faIcon": "fa-solid fa-graduation-cap",
+            "href": "https://lattes.cnpq.br/8471239570114316"
+        },
+
         "phone": {
             "id": "phone",
             "value": "+55 (42) 9 9989-2345",
