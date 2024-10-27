@@ -1,19 +1,19 @@
 {
     "locales": {
         "en": {
-            "welcome": "Welcome to my <span class='text-primary'>Resume!</span>",
+            "welcome": "Welcome to my <span class='text-primary'>journey!</span>",
             "welcomeShort": "Welcome!",
             "bio": "Programmer passionate about software engineering, with a background in Philosophy and a successful career transition. My journey combines analytical thinking with technical skills, offering a unique perspective on problem-solving and development. Feel free to learn more about me!"
         },
 
         "es": {
-            "welcome": "¡Bienvenido(a) a mi <span class='text-primary'>CV!</span>",
+            "welcome": "¡Bienvenido(a) a mi <span class='text-primary'>trayectoria!</span>",
             "welcomeShort": "¡Saludos!",
             "bio": "Programadora apasionada por la ingeniería de software, con formación en Filosofía y una transición de carrera exitosa. Mi trayectoria combina pensamiento analítico con habilidades técnicas, ofreciendo una perspectiva diferenciada en la resolución de problemas y el desarrollo. ¡Siéntete libre de conocer más sobre mí!"
         },
 
         "pt": {
-            "welcome": "Bem-vindo(a) ao meu <span class='text-primary'>currículo</span>!",
+            "welcome": "Bem-vindo(a) a minha <span class='text-primary'>trajetória</span>!",
             "welcomeShort": "Bem-vindo(a)!",
             "bio": "Programadora apaixonada pela engenharia de software, com formação em Filosofia e transição de carreira bem-sucedida. Minha jornada combina pensamento analítico com habilidades técnicas, oferecendo uma perspectiva diferenciada na resolução de problemas e no desenvolvimento. Sinta-se à vontade para saber mais sobre mim!"
         }
@@ -23,13 +23,13 @@
         "socialCircles": [
             "@link{profile.contact.linkedin}",
             "@link{profile.contact.github}",
+            "@link{profile.contact.lattes}",
             "@link{profile.contact.instagram}"
         ],
 
         "contactListItems": [
             "@link{profile.contact.address}",
-            "@link{profile.contact.email}",
-            "@link{profile.contact.phone}"
+            "@link{profile.contact.email}"
         ]
     }
 }
