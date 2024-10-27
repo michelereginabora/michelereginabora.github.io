@@ -66,7 +66,7 @@
         {
             "id": "masters_unicesumar",
             "place": "@link{places.unicesumar}",
-            "period": ["2022/08", "2024/12"],
+            "period": ["2022/08", "2025/12"],
 
             "locales": {
                 "en": {
@@ -82,6 +82,29 @@
                 "pt": {
                     "title": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
                     "description": "Trata-se de um campo de estudo e prática que se concentra na criação, implementação e manutenção de sistemas de software."
+                }
+            }
+        },
+
+        {
+            "id": "masters_mba_usp",
+            "place": "@link{places.usp}",
+            "period": ["2024/10", "2026/05"],
+
+            "locales": {
+                "en": {
+                    "title": "MBA in Software Engineering",
+                    "description": "A postgraduate program that combines technical excellence with strategic management in Software Engineering. The course develops well-rounded professionals by integrating essential leadership and management competencies (soft skills) with advanced expertise in software development and systems architecture (hard skills)."
+                },
+
+                "es": {
+                    "title": "MBA en Ingeniería de Software",
+                    "description": "Postgrado que combina la excelencia técnica con la gestión estratégica en Ingeniería de Software. El programa desarrolla profesionales integrales, uniendo competencias esenciales de liderazgo y gestión (soft skills) con dominio avanzado en desarrollo de software y arquitectura de sistemas (hard skills)."
+                },
+
+                "pt": {
+                    "title": "MBA em Engenharia de Software",
+                    "description": "Pós-graduação lato sensu que combina excelência técnica com gestão estratégica em Engenharia de Software. O curso desenvolve profissionais completos, unindo competências essenciais de liderança e gestão (soft skills) com domínio avançado em desenvolvimento de software e arquitetura de sistemas (hard skills)." 
                 }
             }
         }

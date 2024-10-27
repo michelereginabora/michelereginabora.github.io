@@ -87,5 +87,15 @@
             "es": {"name": "Box TI"},
             "pt": {"name": "Box TI"}
         }
+    },
+
+    "usp": {
+        "logoUrl": "images/places/mbausp.png",
+        "faIcon": "fas fa-university",
+        "locales": {
+            "en": {"name": "Universidade de São Paulo/ESALQ"},
+            "es": {"name": "Universidade de São Paulo/ESALQ"},
+            "pt": {"name": "Universidade de São Paulo/ESALQ"}
+        }
     }
 }
