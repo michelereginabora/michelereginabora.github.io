@@ -1,6 +1,6 @@
 {
     "name": "Michele Regina Bora",
-    "profilePictureUrl": "images/pictures/me.png",
+    "profilePictureUrl": "images/pictures/me.jpg",
 
     "locales": {
         "en": {
@@ -66,6 +66,14 @@
             "valueShort": "@michele-regina-bora",
             "faIcon": "fa-solid fa-graduation-cap",
             "href": "https://lattes.cnpq.br/8471239570114316"
+        },
+
+        "medium": {
+            "id": "medium",
+            "value": "@micheleregina.dev",
+            "valueShort": "@micheleregina.dev",
+            "faIcon": "fa-brands fa-medium",
+            "href": "https://medium.com/@micheleregina.dev"
         },
 
         "phone": {

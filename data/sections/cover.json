@@ -24,7 +24,8 @@
             "@link{profile.contact.linkedin}",
             "@link{profile.contact.github}",
             "@link{profile.contact.lattes}",
-            "@link{profile.contact.instagram}"
+            "@link{profile.contact.instagram}",
+            "@link{profile.contact.medium}"
         ],
 
         "contactListItems": [

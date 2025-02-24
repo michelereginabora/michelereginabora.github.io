@@ -66,7 +66,7 @@
         {
             "id": "masters_unicesumar",
             "place": "@link{places.unicesumar}",
-            "period": ["2022/08", "2025/12"],
+            "period": ["2022/08", "2024/10"],
 
             "locales": {
                 "en": {
@@ -85,6 +85,7 @@
                 }
             }
         },
+
 
         {
             "id": "masters_mba_usp",
@@ -107,6 +108,30 @@
                     "description": "Pós-graduação lato sensu que combina excelência técnica com gestão estratégica em Engenharia de Software. O curso desenvolve profissionais completos, unindo competências essenciais de liderança e gestão (soft skills) com domínio avançado em desenvolvimento de software e arquitetura de sistemas (hard skills)." 
                 }
             }
+        },
+
+        {
+            "id": "masters_bach_vincit",
+            "place": "@link{places.vincit}",
+            "period": ["2025/01", "2028/12"],
+        
+            "locales": {
+                "en": {
+                    "title": "Bachelor's in Software Engineering",
+                    "description": "An undergraduate program focused on designing, developing, and managing software solutions that meet the demands of various industries. The course equips students with strong technical foundations and problem-solving skills to build scalable and efficient systems."
+                },
+        
+                "es": {
+                    "title": "Licenciatura en Ingeniería de Software",
+                    "description": "Programa de grado orientado al diseño, desarrollo y gestión de soluciones de software que respondan a las necesidades de diversos sectores. El curso proporciona bases técnicas sólidas y habilidades para resolver problemas, permitiendo la creación de sistemas escalables y eficientes."
+                },
+        
+                "pt": {
+                    "title": "Bacharelado em Engenharia de Software",
+                    "description": "Curso de graduação focado no planejamento, desenvolvimento e gerenciamento de soluções de software que atendam às demandas de diversos setores. O programa proporciona uma base técnica sólida e habilidades de resolução de problemas para criar sistemas escaláveis e eficientes."
+                }
+            }
         }
+        
     ]
 }

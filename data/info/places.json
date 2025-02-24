@@ -97,5 +97,15 @@
             "es": {"name": "Universidade de São Paulo/ESALQ"},
             "pt": {"name": "Universidade de São Paulo/ESALQ"}
         }
+    },
+
+    "vincit": {
+        "logoUrl": "images/places/vincit.webp",
+        "faIcon": "fas fa-university",
+        "locales": {
+            "en": {"name": "Faculdade VINCIT"},
+            "es": {"name": "Faculdade VINCIT"},
+            "pt": {"name": "Faculdade VINCIT"}
+        }
     }
 }
