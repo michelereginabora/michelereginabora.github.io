@@ -38,7 +38,15 @@
                 "es": {"title": "Proyectos Profesionales"},
                 "pt": {"title": "Projetos Profissionais"}
             }
-        }
+        },
+        {
+            "id": "volunteer",
+            "locales": {
+                "en": {"title": "Volunteer Projects"},
+                "es": {"title": "Proyectos Voluntarios"},
+                "pt": {"title": "Projetos Voluntários"}
+            }
+        }        
     ],
 
     "items": {
@@ -159,6 +167,31 @@
                     "pt": {
                         "description": "<b>Ticker.Press</b> é uma plataforma web inovadora para gestão e distribuição de conteúdo de imprensa. O sistema oferece armazenamento e busca de releases, fotos e vídeos, envio de e-mails para mailing lists, e sites personalizáveis para empresas e jornalistas. Incorpora IA para análise de sentimento e sugestão de manchetes e hashtags, melhorando a qualidade do conteúdo. Projetado para ser escalável, seguro e fácil de usar, o Ticker.Press visa se tornar uma rede social especializada para profissionais de mídia, com planos futuros de incluir fluxos de aprovação, controle de versões e um portal para clientes de assessorias de imprensa.",
                         "tags": ["Vue.js", "TypeScript", "Node.js", "Azure", "TypeORM", "PostgreSQL", "Arquitetura Limpa"]
+                    }
+                }
+            }
+        ],
+        "volunteer": [
+            {
+                "id": "projetosorrir",
+                "title": "Sistema do Projeto SORRIR",
+                "logoUrl": "images/portfolio/sorrir.jpg",
+                "links": [
+                    {"faIcon": "fa-brands fa-instagram", "href": "https://www.instagram.com/projetosorrir/", "id": "Instagram"},
+                    {"faIcon": "fa-brands fa-linkedin", "href": "https://www.linkedin.com/company/projetosorrir/", "id": "Linkedin"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>Projeto Sorrir</b> is a non-profit organization that has been transforming lives through joy, active listening, and humanization in hospitals, nursing homes, and daycare centers since 2008. In 2024, it became necessary to modernize its legacy volunteer management system with new technologies. I contributed as a backend developer and Product Owner (PO).",
+                        "tags": ["Gestão", "Scrum", "Kanban", "User Stories", "Backlog", "ReactJS", "TypeScript", "Node.js", "NestJS", "Prisma"]
+                    },
+                    "es": {
+                        "description": "<b>Proyecto Sorrir</b> es una organización sin fines de lucro que ha estado transformando vidas a través de la alegría, la escucha activa y la humanización en hospitales, residencias de ancianos y guarderías desde 2008. En 2024, fue necesario modernizar su sistema de gestión de voluntarios heredado con nuevas tecnologías. Participé como desarrolladora backend y Product Owner (PO).",
+                        "tags": ["Gestão", "Scrum", "Kanban", "User Stories", "Backlog", "ReactJS", "TypeScript", "Node.js", "NestJS", "Prisma"]
+                    },
+                    "pt": {
+                        "description": "O <b>Projeto Sorrir</b> é uma organização sem fins lucrativos que transforma vidas através da alegria, escuta ativa e humanização em hospitais, asilos e creches desde 2008. Em 2024, foi necessária a modernização do sistema legado de gestão de voluntários para novas tecnologias. Atuo como desenvolvedora backend e Product Owner (PO).",
+                       "tags": ["Gestão", "Scrum", "Kanban", "User Stories", "Backlog", "ReactJS", "TypeScript", "Node.js", "NestJS", "Prisma"]
                     }
                 }
             }
