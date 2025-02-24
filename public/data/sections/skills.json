@@ -233,11 +233,11 @@
             {
                 "imageIconUrl": null,
                 "faIcon": "fab fa-react",
-                "value": 55,
+                "value": 70,
                 "locales": {
-                    "en": {"title": "React", "description": "Learning"},
-                    "es": {"title": "React", "description": "Aprendiendo"},
-                    "pt": {"title": "React", "description": "Aprendendo"}
+                    "en": {"title": "React", "description": "Experience Time: 1 year"},
+                    "es": {"title": "React", "description": "Experiencia: 1 año"},
+                    "pt": {"title": "React", "description": "Experiência : 1 ano"}
                 }
             },
 
