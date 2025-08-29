@@ -142,46 +142,6 @@
                         "description": "Modelagem, consultas SQL e uso de ORMs com MySQL, PostgreSQL e TypeORM."
                     }
                 }
-            },
-
-            {
-                "imageIconUrl": null,
-                "faIcon": "fas fa-project-diagram",
-                "value": null,
-                "locales": {
-                    "en": {
-                        "title": "Object-Oriented Analysis and Design",
-                        "description": "System design and application of object-oriented principles."
-                    },
-                    "es": {
-                        "title": "Análisis y Diseño Orientado a Objetos",
-                        "description": "Diseño de sistemas y aplicación de principios de orientación a objetos."
-                    },
-                    "pt": {
-                        "title": "Análise e Projeto Orientado a Objetos",
-                        "description": "Design de sistemas e aplicação de princípios de orientação a objetos"
-                    }
-                }
-            },
-
-            {
-                "imageIconUrl": null,
-                "faIcon": "fas fa-cubes",
-                "value": null,
-                "locales": {
-                    "en": {
-                        "title": "Clean Architecture",
-                        "description": "Application of Clean Architecture concepts to create modular and easily maintainable systems."
-                    },
-                    "es": {
-                        "title": "Arquitectura Limpia",
-                        "description": "Aplicación de conceptos de Clean Architecture para crear sistemas modulares y de fácil mantenimiento."
-                    },
-                    "pt": {
-                        "title": "Arquitetura Limpa",
-                        "description": "Aplicação de conceitos de Clean Architecture para criar sistemas modulares e de fácil manutenção."
-                    }
-                }
             }
         ],
 
@@ -202,9 +162,9 @@
                 "faIcon": "fab fa-js",
                 "value": 65,
                 "locales": {
-                    "en": {"title": "Typescript", "description": "Experience Time: 1 year"},
-                    "es": {"title": "Typescript", "description": "Experiencia: 1 año"},
-                    "pt": {"title": "Typescript", "description": "Experiência : 1 ano"}
+                    "en": {"title": "Typescript", "description": "Experience Time: 2 years"},
+                    "es": {"title": "Typescript", "description": "Experiencia: 2 años"},
+                    "pt": {"title": "Typescript", "description": "Experiência : 2 anos"}
                 }
             },
 
@@ -244,7 +204,7 @@
             {
                 "imageIconUrl": null,
                 "faIcon": "fab fa-java",
-                "value": 50,
+                "value": 30,
                 "locales": {
                     "en": {"title": "Java/Spring", "description": "Learning"},
                     "es": {"title": "Java/Spring", "description": "Aprendiendo"},
