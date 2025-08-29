@@ -64,33 +64,9 @@
         },
 
         {
-            "id": "masters_unicesumar",
-            "place": "@link{places.unicesumar}",
-            "period": ["2022/08", "2024/10"],
-
-            "locales": {
-                "en": {
-                    "title": "Associate Degree in Systems Analysis and Development",
-                    "description": "This is a field of study and practice that focuses on the creation, implementation, and maintenance of software systems."
-                },
-
-                "es": {
-                    "title": "Tecnólogo en Análisis y Desarrollo de Sistemas",
-                    "description": "Se trata de un campo de estudio y práctica que se centra en la creación, implementación y mantenimiento de sistemas de software."
-                },
-
-                "pt": {
-                    "title": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
-                    "description": "Trata-se de um campo de estudo e prática que se concentra na criação, implementação e manutenção de sistemas de software."
-                }
-            }
-        },
-
-
-        {
             "id": "masters_mba_usp",
             "place": "@link{places.usp}",
-            "period": ["2024/10", "2026/05"],
+            "period": ["2024/10", "2026/08"],
 
             "locales": {
                 "en": {
