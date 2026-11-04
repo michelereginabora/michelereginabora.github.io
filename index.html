@@ -55,7 +55,7 @@
   .context-note{background:#fff;border:1px solid var(--line);border-left:3px solid var(--accent2);
     border-radius:10px;padding:14px 16px;margin-top:16px;font-size:.92rem;color:#334155}
   .context-note b{color:var(--accent)}
-  .metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:22px 0}
+  .metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0}
   @media(max-width:680px){.metrics{grid-template-columns:repeat(2,1fr)}}
   .metric{background:#fff;border:1px solid var(--line);border-top:3px solid var(--accent);
     border-radius:12px;padding:18px 14px;text-align:center;display:flex;flex-direction:column;
@@ -131,6 +131,12 @@
     font-size:1.35rem;font-style:italic;font-weight:500;line-height:1.4}
   .motto::before{content:"“";position:absolute;left:50%;top:-34px;transform:translateX(-50%);
     font-size:3.4rem;color:var(--accent2);opacity:.6;font-family:Georgia,serif}
+  .pub{background:#fff;border:1px solid var(--line);border-left:3px solid var(--accent2);
+    border-radius:12px;padding:20px;margin-top:22px}
+  .pub .tag{font-size:.75rem;font-weight:700;color:var(--accent2);text-transform:uppercase;letter-spacing:.05em}
+  .pub h3{margin:6px 0 8px}
+  .pub p{font-size:.92rem;color:#334155}
+  .pub .btn{margin-top:12px;font-size:.88rem;padding:9px 16px}
   .skills-main{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
   .skills-main .chip{font-size:.9rem;padding:8px 14px}
 </style>
@@ -168,7 +174,7 @@
   <div class="kicker">Case principal</div>
   <h2>Estruturação da Operação de Engenharia</h2>
   <div class="hero-case">
-    <p>Assumi a estruturação da operação de engenharia em um momento em que o Kanban e as métricas ainda não eram acompanhados de forma contínua. Construí a base para tornar os dados confiáveis e passei a conectar a estratégia de negócio à execução técnica, com entregas mais previsíveis, eficientes e orientadas por dados.</p>
+    <p>Assumi a estruturação da operação de engenharia em um momento em que o Kanban e as métricas existiam, mas não eram acompanhados. Em poucos meses, saneei a base de dados, automatizei as métricas de fluxo, simplifiquei e documentei o processo de ponta a ponta e levei à liderança a análise de capacidade que reduziu custos operacionais, conectando a estratégia de negócio à execução técnica.</p>
 
     <div class="context-note">
       <b>Contexto da operação:</b> software house de pequeno porte, com metodologia ágil
@@ -179,24 +185,34 @@
 
     <div class="metrics">
       <div class="metric">
-        <div class="cap">Capacidade</div>
+        <div class="cap">Capacidade ociosa</div>
         <div class="num">40% <span class="arw">&rsaquo;</span> 5%</div>
-        <div class="lbl">excesso operacional reduzido</div>
+        <div class="lbl">excesso reduzido, com queda proporcional no custo operacional</div>
+      </div>
+      <div class="metric">
+        <div class="cap">Automação</div>
+        <div class="num">~3h/semana</div>
+        <div class="lbl">de consolidação manual de métricas eliminadas</div>
       </div>
       <div class="metric">
         <div class="cap">Fluxo (Discovery)</div>
         <div class="num">3 <span class="arw">&rsaquo;</span> 1</div>
-        <div class="lbl">etapas de análise</div>
-      </div>
-      <div class="metric">
-        <div class="cap">Métricas</div>
-        <div class="num">Automatizadas</div>
-        <div class="lbl">com dados limpos</div>
+        <div class="lbl">etapas de análise e especificação</div>
       </div>
       <div class="metric">
         <div class="cap">Dados</div>
-        <div class="num">Confiáveis</div>
-        <div class="lbl">Kanban saneado</div>
+        <div class="num">50 cards</div>
+        <div class="lbl">saneados para tornar as métricas confiáveis</div>
+      </div>
+      <div class="metric">
+        <div class="cap">Disciplina de fluxo</div>
+        <div class="num">-100%</div>
+        <div class="lbl">de cards esquecidos no Discovery após o alerta de esforço</div>
+      </div>
+      <div class="metric">
+        <div class="cap">Comunicação</div>
+        <div class="num">120+</div>
+        <div class="lbl">e-mails automáticos de homologação, sem depender de uma pessoa</div>
       </div>
     </div>
 
@@ -204,33 +220,34 @@
       <div class="frente">
         <h3>Gestão por métricas (Lean/Kanban)</h3>
         <ul>
-          <li>Saneamento do Kanban e arquivamento com justificativa, tornando as métricas confiáveis.</li>
-          <li>Medição manual controlada antes de automatizar (apenas dados limpos).</li>
-          <li>Especificação da automação do cálculo de Lead/Cycle Time, Throughput e WIP (Lei de Little).</li>
+          <li>Saneamento do Kanban card a card: 12 arquivados, 10 atualizados com equipe e cliente, 8 entregas que não eram contabilizadas e 20 retirados da garantia vencida.</li>
+          <li>Medição manual controlada antes de automatizar, garantindo que a automação usasse só dados limpos.</li>
+          <li>Especificação da automação de Lead/Cycle Time, Throughput e WIP, com medianas para separar demandas atípicas da média.</li>
         </ul>
       </div>
       <div class="frente">
         <h3>Otimização de fluxo</h3>
         <ul>
-          <li>Simplificação do Discovery: 3 colunas de análise unificadas em 1.</li>
-          <li>Padronização com 4 templates técnicos e limite de esforço de referência (2h).</li>
-          <li>Categorização do arquivamento de OS; definição das políticas da operação.</li>
+          <li>Discovery simplificado (3 etapas em 1) e padronizado com 4 templates técnicos e alerta de esforço de 2h.</li>
+          <li>Motivos obrigatórios no arquivamento de OS e subcategorias de features e hotfixes, revelando onde a demanda e o retrabalho se concentram.</li>
+          <li>Priorização numérica no backlog com alerta no sistema e separação de orçamentos das demandas reais.</li>
+          <li>Políticas de Discovery e Delivery documentadas; homologação interna passou a ser opcional, com revisão formal quando necessária.</li>
         </ul>
       </div>
       <div class="frente">
         <h3>Governança &amp; capacidade</h3>
         <ul>
-          <li>Definição do conceito de “entrega de valor” (throughput) em alinhamento executivo.</li>
-          <li>Análise de capacidade x demanda que apoiou a decisão de alocação (excesso de 40% para 5%).</li>
-          <li>Revisão de KPIs e planejamento de OKRs.</li>
+          <li>Definição do conceito de “entrega de valor” com os sócios, tornando o throughput representativo.</li>
+          <li>Análise de capacidade x horas contratadas que embasou a decisão da liderança: excesso de ~40% para ~5% e custo operacional reduzido na mesma proporção.</li>
+          <li>Critérios para separar horas internas de horas dedicadas a clientes.</li>
         </ul>
       </div>
       <div class="frente">
-        <h3>Comunicação &amp; cerimônias</h3>
+        <h3>Comunicação, cultura &amp; cerimônias</h3>
         <ul>
-          <li>Padronização da comunicação de entrega ao cliente (evento formal e rastreável).</li>
-          <li>Redução da dependência de uma única pessoa.</li>
-          <li>Cerimônias semanais orientadas por dados, com pauta fixa de métricas.</li>
+          <li>Comunicação de homologação padronizada e automática: mais de 120 e-mails enviados, com a equipe toda em cópia e o cliente deixando de depender de um único contato.</li>
+          <li>Revisões semanais da operação com pauta fixa de métricas e decisões registradas em ata.</li>
+          <li>Propus e fundamentei a <b>Transparência</b> como quarto valor da empresa, aprovado pela equipe.</li>
         </ul>
       </div>
     </div>
@@ -265,10 +282,11 @@
       <div class="when">jul/2026 – atual</div>
       <p class="intro">Conexão da estratégia de negócio à execução técnica para otimizar previsibilidade, eficiência e qualidade das entregas.</p>
       <ul>
-        <li>Estruturei a gestão por métricas de fluxo de uma operação do zero: saneamento do Kanban e automação do cálculo (Lead/Cycle Time, Throughput, WIP), eliminando a consolidação manual semanal.</li>
-        <li>Otimizei o fluxo de desenvolvimento (Discovery de 3 para 1 etapa; 4 templates de especificação).</li>
-        <li>Dei visibilidade ao excesso de capacidade (de ~40% para ~5% acima do necessário), apoiando a decisão de alocação da liderança.</li>
-        <li>Defini a governança da operação: KPIs, conceito de entrega, políticas e cerimônias orientadas por dados.</li>
+        <li>Levei à liderança a análise de capacidade x demanda que reduziu o excesso de ~40% para ~5% acima do necessário, com redução proporcional no custo operacional.</li>
+        <li>Estruturei a gestão por métricas de fluxo: saneamento de 50 cards e automação de Lead/Cycle Time, Throughput e WIP, eliminando ~3h semanais de consolidação manual.</li>
+        <li>Simplifiquei o Discovery (3 etapas em 1) com 4 templates e alerta de esforço, zerando cards esquecidos na etapa.</li>
+        <li>Padronizei e automatizei a comunicação de homologação com clientes (120+ e-mails), descentralizando o contato.</li>
+        <li>Defini a governança da operação: conceito de entrega, políticas de Discovery e Delivery e revisões semanais orientadas por dados.</li>
       </ul>
     </div>
 
@@ -331,6 +349,13 @@
         <li>Análise de Negócios (dados) · Front-End · Python e Dados · Design Thinking</li>
       </ul>
     </div>
+  </div>
+
+  <div class="pub">
+    <div class="tag">Publicação · TCC do MBA USP/Esalq · nota 9</div>
+    <h3>Ferramenta de Gestão Estratégica com Design Thinking aplicada a Software House</h3>
+    <p>Artigo publicado a partir do meu TCC: concepção, prototipação e avaliação de uma plataforma no-code que conecta os indicadores operacionais a OKRs, desenvolvida com Design Thinking (Duplo Diamante) e pesquisa-ação em uma software house real.</p>
+    <a class="btn primary" href="https://revistaes.com.br/artigos/ferramenta-de-gestao-estrategica-com-design-thinking-aplicada-a-software-house" target="_blank" rel="noopener">Ler o artigo publicado</a>
   </div>
 </div></section>
 
@@ -411,6 +436,7 @@
           <p><b>Problema:</b> em uma software house de pequeno porte, havia uma desconexão entre o planejamento estratégico e a execução operacional. A empresa já usava KPIs na operação, mas eles não estavam ligados aos objetivos estratégicos — faltava transformar dados operacionais em informações acionáveis para a decisão. As soluções de mercado eram robustas demais e desproporcionais à maturidade da organização.</p>
           <p><b>Ação:</b> conduzi a pesquisa com Design Thinking + pesquisa-ação, articulados ao modelo do Duplo Diamante: levantamento qualitativo com colaboradores e sócios, grupo focal com os sócios para refinar requisitos, e ciclos de ideação e prototipação. Concebi um protótipo de uma plataforma no-code que conecta os indicadores operacionais (KPIs) a uma lógica de OKRs, com configurabilidade pela própria organização.</p>
           <p><b>Resultado:</b> protótipo de baixa fidelidade avaliado com os sócios (entrevistas + questionário de satisfação), indicando potencial para aproximar planejamento e execução, dar autonomia à organização e reduzir a dependência de sistemas complexos.</p>
+          <p><a href="https://revistaes.com.br/artigos/ferramenta-de-gestao-estrategica-com-design-thinking-aplicada-a-software-house" target="_blank" rel="noopener"><b>Ler o artigo publicado &rsaquo;</b></a></p>
         </div>
       </div>
     </div>
